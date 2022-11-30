@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/all.min.css" rel="stylesheet">
+    <link href="assets/css/fontawesome.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet">
+
+    <title>Title Here</title>
+</head>
+
+<body>
+
+    <!--------- Header area start --------->
+    <header class="header">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="header__logo">
+                <a href=""><img src="assets/img/logo-header.svg" alt=""></a>
+            </div>
+            <div class="header__nav d-flex align-items-center justify-content-end">
+                <a href="">Home</a>
+                <a href="">Guideline</a>
+                <a href="">Referral</a>
+            </div>
+            <div class="header__profile">
+                <div class="dropdown">
+                    <button class="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <span><img src="assets/img/user.svg" alt=""></span> Steve</button>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--------- Header area end --------->
+
+
+    <!--------- Main area start --------->
+    <main class="main">
+
+        <!--------- Hero area start --------->
+        <section class="clock__main py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="clock__wrapper">
+                            <div class="clock-blk">
+                                <p>We are a new site so have not got enough people to match you with someone - we are working hard We have put up a timer so you can see. the time you need to focus for and the goal you have chosen to work on</p>
+                            </div>
+
+                            <div class="clock-blk">
+                                <div id="countDown" class="clock-time d-flex align-items-center justify-content-center">
+                                    
+                                </div>
+                            </div>
+
+                            <div class="clock-blk">
+                                <p class="mb-2">We are a new site so have not got enough people to match you with someone - we are working hard We have put up a timer so you can see. the time you need to focus for and the goal you have chosen to work on</p>
+                                <ul class="ms-md-5">
+                                    <li>25 minute sessions: 2</li>
+                                    <li> 50 minute sessions: 1</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--------- Hero area end --------->
+
+        <!--------- Hero area start --------->
+        <section class="py-5"></section>
+        <!--------- Hero area end --------->
+
+    </main>
+    <!--------- Main area end --------->
+
+
+
+    <!--------- Footer area start --------->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__top d-flex align-items-center justify-content-between">
+                <div class="footer__logo">
+                    <a href=""><img src="assets/img/logo-header.svg" alt=""></a>
+                </div>
+                <div class="footer__nav">
+                    <a href="">Home</a>
+                    <a href="">Guideline</a>
+                    <a href="">Community</a>
+                    <a href="">FAQ</a>
+                    <a href="">About Us</a>
+                    <a href="">Contact Us</a>
+                    <a href="">Terms</a>
+                    <a href="">Privacy</a>
+                </div>
+                <div class="footer__social">
+                    <a href=""><img src="assets/img/facebook.svg" alt=""></a>
+                </div>
+            </div>
+            <div class="copyright">
+                © 2022 someone. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+    <!--------- Footer area end --------->
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script>
+        // Set the date we're counting down to
+        var countDownDate = new Date("Jan 5, 2024 15:37:25").getTime();
+        
+        // Update the count down every 1 second
+        var x = setInterval(function() {
+        
+          // Get today's date and time
+          var now = new Date().getTime();
+        
+          // Find the distance between now and the count down date
+          var distance = countDownDate - now;
+        
+          // Time calculations for days, hours, minutes and seconds
+          var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+          var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+          var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+          var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        
+          // Display the result in the element with id="demo"
+          document.getElementById("countDown").innerHTML =  `<span>${hours}:</span> <span>${minutes}:</span> <span>${seconds}</span>`;
+
+        
+          // If the count down is finished, write some text
+          if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("countDown").innerHTML = "EXPIRED";
+          }
+        }, 1000);
+        </script>
+
+
+</body>
+
+</html>
