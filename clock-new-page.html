@@ -10,6 +10,7 @@
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/all.min.css" rel="stylesheet">
     <link href="assets/css/fontawesome.css" rel="stylesheet">
+    <link href="assets/css/progressbar.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/responsive.css" rel="stylesheet">
 
@@ -126,16 +127,12 @@
                         <div class="time-tracker__thumb">
                             <img src="assets/img/time-tracker.svg" alt="">
                         </div>
-                        <h2 class="time-number">00:15</h2>
-                        <button class="start-btn">START</button>
-                    </div>
-                    <div class="goal-bottom-wrapper text-center">
-                        <h6 class="goal-bottom-wrapper__title">This is the Goal you are working on</h6>
-                        <button class="goal-btn">Goal name</button>
-                        <div class="mt-13px-mobile-change">
-                            <h6 class="goal-bottom-wrapper__title">Tool you are using</h6>
-                            <button class="goal-btn mb-1 goal-btn2">Tool 1</button>
-                            <button class="goal-btn goal-btn2">Tool 2</button>
+                        <h2 class="time-number"><span id="minutes">00</span>:<span class="seconds" id="seconds">00</span></h2>
+                        <button class="start-btn" id="timeStartBtn">START</button>
+                        <div class="progressBar" id="progressBar" data-time-max="30">
+                            <svg>
+                                <circle style=" stroke: #5B84FE;" cx="185" cy="185" r="185"></circle>
+                            </svg>
                         </div>
                     </div>
                 </div>
@@ -146,14 +143,19 @@
                 </ul>
             </div>
             <div class="middle-content d-sm-none mt-5 position-relative">
-                <div class="time-tracker text-center mx-auto">
+                <div class="time-tracker text-center mx-auto position-relative">
                     <div class="time-tracker__thumb">
                         <img src="assets/img/time-tracker.svg" alt="">
                     </div>
-                    <h2 class="time-number">00:15</h2>
+                    <h2 class="time-number"><span id="minutes2">00</span>:<span id="seconds2">00</span></h2>
+                    <div class="progressBar2">
+                        <svg>
+                            <circle style=" stroke: #5B84FE;" cx="101" cy="101" r="101"></circle>
+                        </svg>
+                    </div>
                 </div>
                 <div class="mobile-goal--btn pt-5" style="padding-bottom: 87px;">
-                    <button class="start-btn">START</button>
+                    <button class="start-btn" id="timeStartBtn2">START</button>
                 </div>
                 <div class="goal-bottom-wrapper text-center">
                     <h6 class="goal-bottom-wrapper__title">This is the Goal you are working on</h6>
@@ -205,7 +207,79 @@
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/popper.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/progressbar.js"></script>
     <script src="assets/js/main.js"></script>
+
+    <script type="text/javascript">
+
+
+        var minutesLabel = document.getElementById("minutes");
+        var secondsLabel = document.getElementById("seconds");
+        var totalSeconds = 0;
+
+
+
+
+        function setTime() {
+            secondsLabel.innerHTML = pad(totalSeconds % 100);
+            minutesLabel.innerHTML = pad(parseInt(totalSeconds / 60));
+
+
+            var maxVal = $('.progressBar').attr('data-time-max')
+            var percentVal = (100 * secondsLabel.innerHTML) / maxVal
+
+
+            if (parseInt(maxVal) >= secondsLabel.innerHTML) {
+                $('svg circle').css('stroke-dashoffset', 'calc(1163 - (1163 *' + percentVal + ') / 100)')
+                $('.progressBar2 svg circle').css('stroke-dashoffset', 'calc(635 - (635 *' + percentVal + ') / 100)')
+                $('#seconds2').html(secondsLabel.innerHTML)
+                $('#minutes2').html(minutesLabel.innerHTML)
+            }
+            if (parseInt(maxVal) > secondsLabel.innerHTML) {
+                ++totalSeconds;
+                $('#seconds2').html(secondsLabel.innerHTML)
+                $('#minutes2').html(minutesLabel.innerHTML)
+            }
+
+            if (parseInt(maxVal) < secondsLabel.innerHTML) {
+                $('svg circle').css('stroke-dashoffset', 'calc(1163 - (1163 *' + 100 + ') / 100)')
+                $('.progressBar2 svg circle').css('stroke-dashoffset', 'calc(635 - (635 *' + 100 + ') / 100)')
+                secondsLabel.innerHTML = pad(totalSeconds % 100);
+                minutesLabel.innerHTML = pad(parseInt(totalSeconds / 60));
+
+                $('#seconds2').html(secondsLabel.innerHTML)
+                $('#minutes2').html(minutesLabel.innerHTML)
+            }
+
+            $('#seconds2').html(secondsLabel.innerHTML)
+            $('#minutes2').html(minutesLabel.innerHTML)
+        }
+
+        document.getElementById('timeStartBtn')
+            .addEventListener("click", function (event) {
+
+                setInterval(setTime, 1000);
+
+            }, { once: true });
+
+        document.getElementById('timeStartBtn2')
+            .addEventListener("click", function (event) {
+
+                setInterval(setTime, 1000);
+                console.log(1234);
+
+            }, { once: true });
+
+
+        function pad(val) {
+            var valString = val + "";
+            if (valString.length < 2) {
+                return "0" + valString;
+            } else {
+                return valString;
+            }
+        }
+    </script>
 </body>
 
 </html>

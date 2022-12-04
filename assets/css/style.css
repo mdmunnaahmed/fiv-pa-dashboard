@@ -2545,7 +2545,83 @@ a:hover {
 	height: 372.91px;
 	border-radius: 50%;
 	padding: 45px;
+	position: relative;
 }
+.custom--progress {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 374.42px;
+	height: 372.91px;
+}
+/* .progress-bar div {
+	width: 374.42px;
+	height: 372.91px;
+} */
+
+.progressBar {
+	position: absolute;
+	border-radius: 50%;
+	z-index: 1000;
+	left: -3px;
+	top: -24px;
+	transform: rotate(-90deg);
+}
+
+svg {
+	position: relative;
+	width: 400px;
+	height: 400px;
+	z-index: 1000;
+}
+
+svg circle {
+	width: 100%;
+	height: 100%;
+	fill: none;
+	stroke: #f1f2f3;
+	stroke-width: 7;
+	stroke-linecap: round;
+	transform: translate(5px, 5px);
+}
+
+svg circle {
+	stroke-dasharray: 1163;
+	stroke-dashoffset: 1163;
+}
+
+.progressBar2 {
+	position: absolute;
+	border-radius: 50%;
+	z-index: 1000;
+	left: -4px;
+	top: -12px;
+	transform: rotate(-90deg);
+}
+
+.progressBar2 svg {
+	position: relative;
+	width: 220px;
+	height: 220px;
+	z-index: 1000;
+}
+
+.progressBar2 svg circle {
+	width: 100%;
+	height: 100%;
+	fill: none;
+	stroke: #f1f2f3;
+	stroke-width: 7;
+	stroke-linecap: round;
+	transform: translate(5px, 5px);
+}
+
+.progressBar2 svg circle {
+	stroke-dasharray: 635;
+	stroke-dashoffset: 635;
+}
+
 .goal-btn2 {
 	width: 57.59px;
 }
@@ -2591,6 +2667,8 @@ a:hover {
 	margin: auto;
 	letter-spacing: 1.53957px;
 	box-shadow: 0px 3.07914px 7.69784px rgba(95, 136, 247, 0.4);
+	position: relative;
+	z-index: 111111;
 }
 @media (max-width: 991px) {
 	.time-tracker .start-btn {
