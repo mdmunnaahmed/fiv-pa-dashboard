@@ -20,7 +20,7 @@
 
 <body>
 
-
+    <div class="overlay"></div>
     <!--------- Header area start --------->
     <header class="header d-lg-none">
         <div class="container d-flex justify-content-between align-items-center" style="padding-inline: 30px;">
@@ -28,10 +28,10 @@
                 <a href=""><img src="assets/img/logo-header.svg" alt=""></a>
             </div>
             <!-- <div class="header__nav color-change-nav d-flex align-items-center justify-content-end">
-                <a href="">Home</a>
-                <a href="">Guideline</a>
-                <a href="">Referral</a>
-            </div> -->
+                        <a href="">Home</a>
+                        <a href="">Guideline</a>
+                        <a href="">Referral</a>
+                    </div> -->
             <ul class="header__profile d-flex flex-wrap gap-2 align-items-center m-0 p-0" style="list-style: none;">
                 <li>
                     <ul class="star d-flex flex-wrap m-0 p-0">
@@ -58,125 +58,29 @@
                 <li>
                     <ul class="d-flex flex-wrap align-items-center d-lg-none mb-0 p-0" style="list-style: none;">
                         <li style="padding-right: 12px;"><img src="assets/img/book-mobile.svg" alt=""></li>
-                        <li><a href=""><img src="assets/img/mobile-menu-icon.svg" alt=""></a></li>
+                        <li class="header-trigger-wrapper"><a href="#" class="header-trigger"><img src="assets/img/mobile-menu-icon.svg" alt=""></a></li>
                     </ul>
                 </li>
             </ul>
         </div>
     </header>
-    <!--------- Header area end --------->
-
-
-
-    <!-- Button trigger modal -->
-    <button type="button" class="btn btn-primary d-none d-lg-block" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-        Launch static backdrop modal
-    </button>
-
-    <!-- Modal -->
-    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-        <div class="modal-dialog book-modal-width">
-            <div class="modal-content border-0">
-                <div class="modal-header modal-top-padding">
-                    <h3 class="modal-title book-title" id="staticBackdropLabel">Book a session</h3>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body p-0">
-                    <!-- Book-Session Modal Content Wrapper -->
-                    <div class="book-session-content">
-                        <div class="book-content d-flex flex-wrap justify-content-between align-items-center">
-                            <div class="left">
-                                <h3 class="title">What do you want to accomplish?</h3>
-                                <p>This will not be shared with your partner.</p>
-                            </div>
-                            <div class="right d-flex align-items-center">
-                                <a href=""><img src="assets/img/plus.svg" alt="">Add new trackable goals</a>
-                            </div>
-                        </div>
-                        <div class="form-content">
-                            <h3 class="form-content__title">Is there a specific goal you will be working on?</h3>
-                            <form action="" class="book-form">
-                                <div class="form-group position-relative mb-57px">
-                                    <select class="w-100 goal-select" name="" id="">
-                                        <option value="">Goal 1</option>
-                                        <option value="">Goal 2</option>
-                                        <option value="">Goal 3</option>
-                                    </select>
-                                    <div class="select-user-shape">
-                                        <img src="assets/img/select-user.svg" alt="">
-                                    </div>
-                                    <div class="select-arrow">
-                                        <img src="assets/img/select-arrow.svg" alt="">
-                                    </div>
-                                </div>
-                                <div class="select-group-wrapper d-flex justify-content-between">
-                                    <div class="form-group position-relative width-316">
-                                        <span class="select-name">Date</span>
-                                        <input type="text" class="datepicker-here form-control goal-select goal-select2" data-language='en' data-position='top left' placeholder="Select date">
-                                        <div class="select-arrow-2">
-                                            <img src="assets/img/calendar.svg" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="form-group position-relative width-316">
-                                        <span class="select-name">Start time</span>
-                                        <select class="goal-select goal-select2" name="" id="">
-                                            <option value="">9:00 am</option>
-                                            <option value="">10:00 am</option>
-                                            <option value="">11:00 am</option>
-                                        </select>
-                                        <div class="select-arrow-2">
-                                            <img src="assets/img/select-arrow.svg" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="form-group position-relative width-316">
-                                        <span class="select-name">Repeat</span>
-                                        <select class="goal-select goal-select2" name="" id="">
-                                            <option value="">Daily</option>
-                                            <option value="">Today</option>
-                                            <option value="">Tomorrow</option>
-                                        </select>
-                                        <div class="select-arrow-2">
-                                            <img src="assets/img/select-arrow.svg" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                        <div class="bottom-content d-flex flex-wrap justify-content-between">
-                            <div class="bottom-left">
-                                <div class="form-group position-relative">
-                                    <span class="select-name">Duration</span>
-                                    <select class="goal-select goal-select2 w-100" name="" id="">
-                                        <option value="">Choose</option>
-                                        <option value="">25 minutes</option>
-                                        <!-- <option value="">50 minutes</option> -->
-                                        <option value="">Custom</option>
-                                    </select>
-                                    <div class="select-arrow-3">
-                                        <img src="assets/img/select-arrow.svg" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="bottom-right">
-                                <ul class="select-number d-flex flex-wrap gap-2 gap-xl-3 p-0 m-0">
-                                    <li><a href="">15</a></li>
-                                    <li><a href="">30</a></li>
-                                    <li><a href="">45</a></li>
-                                    <li><a href="">60</a></li>
-                                    <li><a href="">75</a></li>
-                                    <li><a href="">90</a></li>
-                                </ul>
-                                <div class="button-wrapper">
-                                    <button type="button" class="btn-left" data-bs-dismiss="modal">Cancel</button>
-                                    <button type="button" class="btn-right">Book Session</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <div class="mobile-menu">
+        <span class="close-mobile-btn">
+            <img src="assets/img/close-icon2.svg" alt="">
+        </span>
+        <ul class="menu d-lg-none p-0 m-0">
+            <li class="menu-item">
+                <a class="menu-link active" href="">Home</a>
+            </li>
+            <li class="menu-item">
+                <a class="menu-link" href="">Guideline</a>
+            </li>
+            <li class="menu-item">
+                <a class="menu-link" href="">Referral</a>
+            </li>
+        </ul>
     </div>
+    <!--------- Header area end --------->
 
 
     <!-- Mobile HTML Makeup Starts Here  -->
@@ -259,9 +163,6 @@
             </div>
         </div>
     </section>
-
-
-
 
     <!--------- Footer area start --------->
     <footer class="footer d-lg-none">

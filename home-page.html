@@ -17,9 +17,9 @@
 </head>
 
 <body>
-
+    <div class="overlay"></div>
     <!--------- Header area start --------->
-    <header class="header">
+    <header class="header d-none d-lg-block">
         <div class="container d-flex justify-content-between align-items-center">
             <div class="header__logo">
                 <a href=""><img src="assets/img/logo-header.svg" alt=""></a>
@@ -49,109 +49,172 @@
     </header>
     <!--------- Header area end --------->
 
-    <!-- Homepage user data start -->
-    <div class="user-data d-flex">
-        <div class="user-left">
-            <img src="assets/img/clandar.svg" alt="">
-        </div>
-        <div class="user-right">
-            <div class="all-content h-100">
-                <button class="promodoro-btn">Promodoro</button>
-                <div class="dashboard-content-wrapper">
-                    <div class="top-content text-center">
-                        <button>Book Session</button>
-                        <div class="text-join-btn d-flex justify-content-center align-items-center flex-wrap gap-4">
-                            <h6 class="title mb-0">Your next session will start in <span>00:05:50</span></h6>
-                            <a href="" class="join-btn">Join now</a>
-                        </div>
+    <!--------- Header area start --------->
+    <header class="header d-lg-none">
+        <div class="container d-flex justify-content-between align-items-center" style="padding-inline: 30px;">
+            <div class="header__logo">
+                <a href=""><img src="assets/img/logo-header.svg" alt=""></a>
+            </div>
+            <!-- <div class="header__nav color-change-nav d-flex align-items-center justify-content-end">
+                    <a href="">Home</a>
+                    <a href="">Guideline</a>
+                    <a href="">Referral</a>
+                </div> -->
+            <ul class="header__profile d-flex flex-wrap gap-2 align-items-center m-0 p-0" style="list-style: none;">
+                <li>
+                    <ul class="star d-flex flex-wrap m-0 p-0">
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                    </ul>
+                </li>
+                <li>
+                    <div class="dropdown mt-1 mt-lg-0">
+                        <button class="dropdown-toggle new-base-color" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img style="width: 17px;" src="assets/img/user-2.svg" alt="">
+                            <p class="ps-2 mb-0" style=" font-weight: 600;font-size: 12px;">Steve</p>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
                     </div>
-                    <div class="body-card-content d-flex flex-wrap ">
-                        <div class="card-item">
-                            <div class="d-flex align-items-center mb-2">
-                                <img src="assets/img/01.svg" alt="">
-                                <h6 class="title mb-0">Scheduled</h6>
+                </li>
+                <li>
+                    <ul class="d-flex flex-wrap align-items-center d-lg-none mb-0 p-0" style="list-style: none;">
+                        <li style="padding-right: 12px;"><img src="assets/img/book-mobile.svg" alt=""></li>
+                        <li class="header-trigger-wrapper"><a href="#" class="header-trigger"><img src="assets/img/mobile-menu-icon.svg" alt=""></a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <div class="mobile-menu">
+        <span class="close-mobile-btn">
+            <img src="assets/img/close-icon2.svg" alt="">
+        </span>
+        <ul class="menu d-lg-none p-0 m-0">
+            <li class="menu-item">
+                <a class="menu-link active" href="">Home</a>
+            </li>
+            <li class="menu-item">
+                <a class="menu-link" href="">Guideline</a>
+            </li>
+            <li class="menu-item">
+                <a class="menu-link" href="">Referral</a>
+            </li>
+        </ul>
+    </div>
+    <!--------- Header area end --------->
+
+    <!-- Homepage user data start -->
+    <div class="my-container overflow-hidden">
+        <div class="user-data d-flex flex-wrap">
+            <div class="user-left">
+                <img src="assets/img/clandar.svg" alt="">
+            </div>
+            <div class="user-right">
+                <div class="all-content h-100">
+                    <button class="promodoro-btn">Promodoro</button>
+                    <div class="dashboard-content-wrapper">
+                        <div class="top-content text-sm-center">
+                            <button data-bs-toggle="modal" data-bs-target="#staticBackdrop">Book Session</button>
+                            <div class="text-join-btn d-flex flex-wrap justify-content-sm-center align-items-center flex-wrap gap-4">
+                                <h6 class="title mb-0">Your next session will start in <span>00:05:50</span></h6>
+                                <a href="" class="join-btn text-center">Join now</a>
                             </div>
-                            <p class="text mb-0">When is your next focus session</p>
                         </div>
-                        <div class="card-item">
-                            <div class="d-flex align-items-center mb-0">
-                                <img src="assets/img/02.svg" alt="">
-                                <h6 class="title mb-0">Statistics</h6>
-                            </div>
-                            <div class="d-flex flex-wrap align-items-center" style="padding-left: 40px;">
-                                <div class="time-text-wrapper text-center">
-                                    <h5 class="time mb-1" style="font-weight: 700; font-size: 17px;">302:15 hrs</h5>
-                                    <p class="mb-0 text" style="font-weight: 600;font-size: 14px; color: #5B84FE;">In Focus</p>
+                        <div class="body-card-content d-flex flex-wrap">
+                            <div class="card-item">
+                                <div class="d-flex align-items-center mb-2">
+                                    <img src="assets/img/01.svg" alt="">
+                                    <h6 class="title mb-0">Scheduled</h6>
                                 </div>
-                                <ul class="nav day-list m-0 pe-2 flex-column">
-                                    <li class="nav-item"><a href="" data-bs-toggle="tab" class="nav-link active">Day</a></li>
-                                    <li class="nav-item"><a href="" data-bs-toggle="tab" class="nav-link">Week</a></li>
-                                    <li class="nav-item"><a href="" data-bs-toggle="tab" class="nav-link">Month</a></li>
+                                <p class="text mb-0">When is your next focus session</p>
+                            </div>
+                            <div class="card-item">
+                                <div class="d-flex align-items-center mb-0">
+                                    <img src="assets/img/02.svg" alt="">
+                                    <h6 class="title mb-0">Statistics</h6>
+                                </div>
+                                <div class="d-flex flex-wrap align-items-center" style="padding-left: 40px;">
+                                    <div class="time-text-wrapper text-center">
+                                        <h5 class="time mb-1" style="font-weight: 700; font-size: 17px;">302:15 hrs</h5>
+                                        <p class="mb-0 text" style="font-weight: 600;font-size: 14px; color: #5B84FE;">In Focus</p>
+                                    </div>
+                                    <ul class="nav day-list m-0 pe-2 flex-column">
+                                        <li class="nav-item"><a href="" data-bs-toggle="tab" class="nav-link active">Day</a></li>
+                                        <li class="nav-item"><a href="" data-bs-toggle="tab" class="nav-link">Week</a></li>
+                                        <li class="nav-item"><a href="" data-bs-toggle="tab" class="nav-link">Month</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-item">
+                                <div class="d-flex align-items-center mb-0 mb-xl-2">
+                                    <img src="assets/img/03.svg" alt="">
+                                    <h6 class="title mb-0">Goals</h6>
+                                </div>
+                                <div class="progress-wrapper">
+                                    <img src="assets/img/g-progress1.svg" alt="">
+                                    <img src="assets/img/g-progress2.svg" alt="">
+                                    <img src="assets/img/g-progress3.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="card-item">
+                                <div class="d-flex align-items-center mb-2">
+                                    <img src="assets/img/04.svg" alt="">
+                                    <h6 class="title mb-0">Rewards</h6>
+                                </div>
+                                <div class="d-flex justify-content-center mt-4">
+                                    <img src="assets/img/head.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bottom-card-content d-flex flex-wrap justify-content-xl-between">
+                            <div class="bottom-card">
+                                <div class="d-flex align-items-center mb-2">
+                                    <img src="assets/img/06.svg" alt="">
+                                    <h6 class="title mb-0">Past session</h6>
+                                </div>
+                            </div>
+                            <div class="bottom-card">
+                                <div class="d-flex align-items-center mb-2">
+                                    <img src="assets/img/007.svg" alt="">
+                                    <h6 class="title mb-0 mt-1">STREAKS</h6>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center pt-2" style="color: #415EB4;font-weight: 600;font-size: 15px;">12 days</div>
+                            </div>
+                            <div class="bottom-card">
+                                <div class="d-flex align-items-center mb-1 mb-sm-0">
+                                    <img src="assets/img/08.svg" alt="">
+                                    <h6 class="title mb-0 mt-1">Teams</h6>
+                                </div>
+                                <ul class="p-0 checkbox-wrapper text-start">
+                                    <li class="d-flex align-items-center custom-checkbox m-0 p-0">
+                                        <input type="checkbox" class="checkbox remember-me" id="checkbox">
+                                        <label class="mb-0 mt-1" for="checkbox">All Myfocustime groups</label>
+                                    </li>
+                                    <li class="d-flex align-items-center custom-checkbox m-0 p-0">
+                                        <input type="checkbox" class="checkbox1" id="checkbox1">
+                                        <label class="mb-0 mt-1" for="checkbox1">Team 1</label>
+                                    </li>
+                                    <li class="d-flex align-items-center custom-checkbox m-0 p-0">
+                                        <input type="checkbox" class="checkbox2" id="checkbox2">
+                                        <label class="mb-0 mt-1" for="checkbox2">Team 2</label>
+                                    </li>
                                 </ul>
                             </div>
-                        </div>
-                        <div class="card-item">
-                            <div class="d-flex align-items-center mb-2">
-                                <img src="assets/img/03.svg" alt="">
-                                <h6 class="title mb-0">Goals</h6>
-                            </div>
-                            <div class="progress-wrapper">
-                                <img src="assets/img/g-progress1.svg" alt="">
-                                <img src="assets/img/g-progress2.svg" alt="">
-                                <img src="assets/img/g-progress3.svg" alt="">
-                            </div>
-                        </div>
-                        <div class="card-item">
-                            <div class="d-flex align-items-center mb-2">
-                                <img src="assets/img/04.svg" alt="">
-                                <h6 class="title mb-0">Rewards</h6>
-                            </div>
-                            <div class="d-flex justify-content-center mt-4">
-                                <img src="assets/img/head.svg" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="bottom-card-content d-flex justify-content-between">
-                        <div class="bottom-card">
-                            <div class="d-flex align-items-center mb-2">
-                                <img src="assets/img/06.svg" alt="">
-                                <h6 class="title mb-0">Past session</h6>
-                            </div>
-                        </div>
-                        <div class="bottom-card">
-                            <div class="d-flex align-items-center mb-2">
-                                <img src="assets/img/007.svg" alt="">
-                                <h6 class="title mb-0 mt-1">STREAKS</h6>
-                            </div>
-                            <div class="d-flex justify-content-center align-items-center pt-2" style="color: #415EB4;font-weight: 600;font-size: 15px;">12 days</div>
-                        </div>
-                        <div class="bottom-card">
-                            <div class="d-flex align-items-center mb-0">
-                                <img src="assets/img/08.svg" alt="">
-                                <h6 class="title mb-0 mt-1">Teams</h6>
-                            </div>
-                            <ul class="p-0 checkbox-wrapper text-start">
-                                <li class="d-flex align-items-center custom-checkbox m-0 p-0">
-                                    <input type="checkbox" class="checkbox remember-me" id="checkbox">
-                                    <label class="mb-0 mt-1" for="checkbox">All Myfocustime groups</label>
-                                </li>
-                                <li class="d-flex align-items-center custom-checkbox m-0 p-0">
-                                    <input type="checkbox" class="checkbox1" id="checkbox1">
-                                    <label class="mb-0 mt-1" for="checkbox1">Team 1</label>
-                                </li>
-                                <li class="d-flex align-items-center custom-checkbox m-0 p-0">
-                                    <input type="checkbox" class="checkbox2" id="checkbox2">
-                                    <label class="mb-0 mt-1" for="checkbox2">Team 2</label>
-                                </li>
-                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    </div>
     <!-- Homepage user end start -->
+
 
     <!--------- Footer area start --------->
     <footer class="footer">
@@ -182,6 +245,110 @@
     </footer>
     <!--------- Footer area end --------->
 
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog book-modal-width">
+            <div class="modal-content border-0">
+                <div class="modal-header modal-top-padding">
+                    <h3 class="modal-title book-title" id="staticBackdropLabel">Book a session</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-0">
+                    <!-- Book-Session Modal Content Wrapper -->
+                    <div class="book-session-content">
+                        <div class="book-content d-flex flex-wrap justify-content-between align-items-center">
+                            <div class="left">
+                                <h3 class="title">What do you want to accomplish?</h3>
+                                <p>This will not be shared with your partner.</p>
+                            </div>
+                            <div class="right d-flex align-items-center">
+                                <a href=""><img src="assets/img/plus.svg" alt="">Add new trackable goals</a>
+                            </div>
+                        </div>
+                        <div class="form-content">
+                            <h3 class="form-content__title">Is there a specific goal you will be working on?</h3>
+                            <form action="" class="book-form">
+                                <div class="form-group position-relative mb-57px">
+                                    <select class="w-100 goal-select" name="" id="">
+                                        <option value="">Goal 1</option>
+                                        <option value="">Goal 2</option>
+                                        <option value="">Goal 3</option>
+                                    </select>
+                                    <div class="select-user-shape">
+                                        <img src="assets/img/select-user.svg" alt="">
+                                    </div>
+                                    <div class="select-arrow">
+                                        <img src="assets/img/select-arrow.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="select-group-wrapper d-flex justify-content-between">
+                                    <div class="form-group position-relative width-316">
+                                        <span class="select-name">Date</span>
+                                        <input type="text" class="datepicker-here form-control goal-select goal-select2" data-language='en' data-position='top left' placeholder="Select date">
+                                        <div class="select-arrow-2">
+                                            <img src="assets/img/calendar.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="form-group position-relative width-316">
+                                        <span class="select-name">Start time</span>
+                                        <select class="goal-select goal-select2" name="" id="">
+                                            <option value="">9:00 am</option>
+                                            <option value="">10:00 am</option>
+                                            <option value="">11:00 am</option>
+                                        </select>
+                                        <div class="select-arrow-2">
+                                            <img src="assets/img/select-arrow.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="form-group position-relative width-316">
+                                        <span class="select-name">Repeat</span>
+                                        <select class="goal-select goal-select2" name="" id="">
+                                            <option value="">Daily</option>
+                                            <option value="">Today</option>
+                                            <option value="">Tomorrow</option>
+                                        </select>
+                                        <div class="select-arrow-2">
+                                            <img src="assets/img/select-arrow.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="bottom-content d-flex flex-wrap justify-content-between">
+                            <div class="bottom-left">
+                                <div class="form-group position-relative">
+                                    <span class="select-name">Duration</span>
+                                    <select class="goal-select goal-select2 w-100" name="" id="">
+                                        <option value="">Choose</option>
+                                        <option value="">25 minutes</option>
+                                        <!-- <option value="">50 minutes</option> -->
+                                        <option value="">Custom</option>
+                                    </select>
+                                    <div class="select-arrow-3">
+                                        <img src="assets/img/select-arrow.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bottom-right">
+                                <ul class="select-number d-flex flex-wrap gap-2 gap-xl-3 p-0 m-0">
+                                    <li><a href="">15</a></li>
+                                    <li><a href="">30</a></li>
+                                    <li><a href="">45</a></li>
+                                    <li><a href="">60</a></li>
+                                    <li><a href="">75</a></li>
+                                    <li><a href="">90</a></li>
+                                </ul>
+                                <div class="button-wrapper">
+                                    <button type="button" class="btn-left" data-bs-dismiss="modal">Cancel</button>
+                                    <button type="button" class="btn-right">Book Session</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/popper.js"></script>

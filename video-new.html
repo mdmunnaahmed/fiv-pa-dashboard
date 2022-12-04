@@ -13,10 +13,41 @@
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/responsive.css" rel="stylesheet">
 
-    <title>After Session</title>
+    <title>Video New Page</title>
 </head>
 
 <body class="bg-991px">
+    <div class="overlay"></div>
+    <!--------- Header area start --------->
+    <header class="header d-none d-lg-block">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="header__logo">
+                <a href=""><img src="assets/img/logo-header.svg" alt=""></a>
+            </div>
+            <div class="header__nav color-change-nav d-flex align-items-center justify-content-end">
+                <a href="">Home</a>
+                <a href="">Guideline</a>
+                <a href="">Referral</a>
+            </div>
+            <div class="header__profile d-flex flex-wrap gap-3 align-items-center">
+                <div class="dropdown">
+                    <button class="dropdown-toggle new-base-color" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        <span><img src="assets/img/user-2.svg" alt=""></span> Steve</button>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </div>
+                <ul class="book-mark d-sm-flex flex-wrap align-items-center d-none mb-0 pb-0">
+                    <li><img src="assets/img/book-icon.svg" alt=""></li>
+                    <li>118</li>
+                    <li><a href=""><img src="assets/img/plus-icon.svg" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!--------- Header area end --------->
 
     <!--------- Header area start --------->
     <header class="header d-lg-none">
@@ -55,41 +86,10 @@
                 <li>
                     <ul class="d-flex flex-wrap align-items-center d-lg-none mb-0 p-0" style="list-style: none;">
                         <li style="padding-right: 12px;"><img src="assets/img/book-mobile.svg" alt=""></li>
-                        <li><a href=""><img src="assets/img/mobile-menu-icon.svg" alt=""></a></li>
+                        <li class="header-trigger-wrapper"><a href="#" class="header-trigger"><img src="assets/img/mobile-menu-icon.svg" alt=""></a></li>
                     </ul>
                 </li>
             </ul>
-        </div>
-    </header>
-    <!--------- Header area end --------->
-
-    <!--------- Header area start --------->
-    <header class="header d-none d-lg-block">
-        <div class="container d-flex justify-content-between align-items-center">
-            <div class="header__logo">
-                <a href=""><img src="assets/img/logo-header.svg" alt=""></a>
-            </div>
-            <div class="header__nav color-change-nav d-flex align-items-center justify-content-end">
-                <a href="">Home</a>
-                <a href="">Guideline</a>
-                <a href="">Referral</a>
-            </div>
-            <div class="header__profile d-flex flex-wrap gap-3 align-items-center">
-                <div class="dropdown">
-                    <button class="dropdown-toggle new-base-color" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                        <span><img src="assets/img/user-2.svg" alt=""></span> Steve</button>
-                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                </div>
-                <ul class="book-mark d-sm-flex flex-wrap align-items-center d-none mb-0 pb-0">
-                    <li><img src="assets/img/book-icon.svg" alt=""></li>
-                    <li>118</li>
-                    <li><a href=""><img src="assets/img/plus-icon.svg" alt=""></a></li>
-                </ul>
-            </div>
         </div>
     </header>
     <!--------- Header area end --------->
@@ -185,7 +185,7 @@
     <!-- Report Problem End -->
 
     <!-- Mobile Video Gallery Start -->
-    <div class="container position-relative d-lg-none">
+    <div class="container position-relative d-lg-none overflow-hidden">
         <div class="main-gallery">
             <div class="main-gallery__thumb d-flex justify-content-center align-items-center">
                 <img src="assets/img/mobile-gallery01.svg" alt="">
@@ -196,6 +196,23 @@
         </div>
     </div>
     <!-- Mobile Video Gallery End -->
+
+    <div class="mobile-menu">
+        <span class="close-mobile-btn">
+            <img src="assets/img/close-icon2.svg" alt="">
+        </span>
+        <ul class="menu d-lg-none p-0 m-0">
+            <li class="menu-item">
+                <a class="menu-link active" href="">Home</a>
+            </li>
+            <li class="menu-item">
+                <a class="menu-link" href="">Guideline</a>
+            </li>
+            <li class="menu-item">
+                <a class="menu-link" href="">Referral</a>
+            </li>
+        </ul>
+    </div>
 
     <!--------- Footer area start --------->
     <footer class="footer">

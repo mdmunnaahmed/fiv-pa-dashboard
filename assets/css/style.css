@@ -2241,15 +2241,51 @@ a:hover {
 .user-data {
 	padding: 22px 16px;
 }
+@media (max-width: 1199px) {
+	.user-data {
+		justify-content: center;
+	}
+}
 .user-left {
 	width: 612px;
 }
 .user-left img {
 	width: 100%;
 }
+@media (max-width: 1500px) {
+	.user-left {
+		max-width: 612px;
+	}
+	.user-left img {
+		width: 100%;
+		height: 100%;
+	}
+}
+@media (max-width: 1199px) {
+	.user-left {
+		width: 100%;
+		margin-bottom: 35px;
+	}
+}
 .user-right {
 	width: calc(100% - 612px);
 	padding-left: 11px;
+}
+@media (max-width: 1500px) {
+	.user-right {
+		width: calc(100% - 612px);
+	}
+}
+@media (max-width: 1199px) {
+	.user-right {
+		width: 100%;
+		padding-left: 0;
+	}
+}
+@media (max-width: 575px) {
+	.user-right {
+		max-width: 575px;
+	}
 }
 .all-content {
 	background-color: #fff;
@@ -2257,6 +2293,20 @@ a:hover {
 	padding-bottom: 21px;
 	border-radius: 10px;
 	position: relative;
+}
+@media (max-width: 1199px) {
+	.all-content {
+		padding-top: 35px;
+		padding-bottom: 15px;
+	}
+}
+@media (max-width: 1199px) {
+	.all-content {
+		background-color: #fff;
+		padding-top: 15px;
+		padding-inline: 15px;
+		padding-bottom: 15px;
+	}
 }
 .promodoro-btn {
 	width: 99px;
@@ -2276,6 +2326,11 @@ a:hover {
 	position: absolute;
 	left: 25px;
 	top: 24px;
+}
+@media (max-width: 575px) {
+	.promodoro-btn {
+		left: 15px;
+	}
 }
 .dashboard-content-wrapper {
 	width: 570px;
@@ -2300,6 +2355,17 @@ a:hover {
 	font-weight: 600;
 	font-size: 17px;
 	color: #333333;
+}
+@media (max-width: 575px) {
+	.text-join-btn .title {
+		width: 100%;
+		display: block;
+		text-align: start;
+		font-size: 16px;
+	}
+	.top-content button {
+		margin-left: 160px;
+	}
 }
 .text-join-btn .title span {
 	color: #5b84fe;
@@ -2326,6 +2392,23 @@ a:hover {
 	padding: 16px 25px;
 	padding-right: 10px;
 }
+@media (max-width: 1199px) {
+	.body-card-content .card-item {
+		height: 120px;
+		padding: 10px 15px;
+		padding-right: 5px;
+	}
+}
+@media (max-width: 575px) {
+	.body-card-content .card-item {
+		width: 55%;
+	}
+}
+@media (max-width: 575px) {
+	.my-container {
+		width: 100%;
+	}
+}
 .body-card-content .card-item .title {
 	font-weight: 600;
 	font-size: 15px;
@@ -2340,6 +2423,11 @@ a:hover {
 .body-card-content {
 	gap: 22px 56px;
 }
+@media (max-width: 1199px) {
+	.body-card-content {
+		gap: 15px 15px;
+	}
+}
 .bottom-card-content {
 	margin-top: 22px;
 }
@@ -2350,6 +2438,22 @@ a:hover {
 	box-shadow: 0px 0px 6px 3px rgba(42, 45, 108, 0.2);
 	border-radius: 5px;
 	padding: 10px;
+}
+@media (max-width: 1199px) {
+	.bottom-card {
+		width: 150px;
+	}
+	.bottom-card-content {
+		gap: 10px 39px;
+	}
+}
+@media (max-width: 575px) {
+	.bottom-card {
+		width: 55%;
+	}
+	.bottom-card-content {
+		gap: 10px;
+	}
 }
 .bottom-card .title {
 	font-weight: 600;
@@ -2391,6 +2495,12 @@ a:hover {
 }
 .checkbox-wrapper {
 	margin-left: 22px;
+}
+@media (max-width: 1199px) {
+	.checkbox-wrapper {
+		margin-left: 0px;
+		margin-top: 2px;
+	}
 }
 .clock-width {
 	max-width: 1410px;
@@ -2652,4 +2762,67 @@ a:hover {
 	.bg-991px {
 		background-color: #ccd9ff;
 	}
+}
+
+.mobile-menu {
+	background-color: #35434b;
+	padding: 25px 0 20px;
+	width: 160px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 2;
+	transform: translateX(100%);
+	transition: all ease 0.3s;
+	display: none;
+	overflow: hidden;
+}
+
+.mobile-menu .menu li {
+	padding: 2px 16px;
+	width: 100%;
+}
+
+.mobile-menu .close-mobile-btn {
+	position: absolute;
+	right: 20px;
+	top: 10px;
+	z-index: 1;
+}
+.mobile-menu .menu {
+	list-style: none;
+}
+.mobile-menu .menu li a {
+	text-decoration: none;
+	font-size: 13px;
+	color: #fff;
+}
+
+.overlay {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	z-index: 111;
+	visibility: hidden;
+	opacity: 0;
+}
+
+.overlay.active {
+	visibility: visible;
+	opacity: 1;
+}
+
+.overlay.overlay-color {
+	opacity: 1;
+	visibility: visible;
+	background-color: rgba(0, 0, 0, 0.3);
+	color: #fff;
+	z-index: 1;
+}
+
+.mobile-menu.active {
+	transform: translateX(0);
+	display: block;
 }
