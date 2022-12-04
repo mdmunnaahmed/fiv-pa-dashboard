@@ -2030,11 +2030,26 @@ a:hover {
 	border-radius: 6px;
 	margin-bottom: 74px;
 }
+@media (max-width: 1199px) {
+	.video-conference {
+		height: 800px;
+		margin-bottom: 50px;
+	}
+	.report-video-content-wrapper {
+		padding-top: 80px;
+		padding-bottom: 250px;
+	}
+}
 .video-thumb {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	margin-top: 365px;
+}
+@media (max-width: 1199px) {
+	.video-thumb img {
+		width: 100px;
+	}
 }
 .video-content {
 	list-style: none;
@@ -2045,6 +2060,14 @@ a:hover {
 	left: 0;
 	position: absolute;
 	width: 100%;
+}
+@media (max-width: 1199px) {
+	.video-content {
+		height: 90px;
+	}
+	.video-content img {
+		width: 30px;
+	}
 }
 .video-content li {
 	cursor: pointer;
@@ -2065,10 +2088,21 @@ a:hover {
 	border-top-width: 0px;
 	border-radius: 6px;
 }
+@media (max-width: 1199px) {
+	.right-small-thumb {
+		height: 270.23px;
+		max-width: 450px;
+	}
+}
 .session__title {
 	font-weight: 700;
 	font-size: 60px;
 	color: #5b84fe;
+}
+@media (max-width: 1199px) {
+	.session__title {
+		font-size: 50px;
+	}
 }
 .session-card {
 	background: #ffffff;
@@ -2078,6 +2112,12 @@ a:hover {
 	height: 128px;
 	padding: 13px 25px 17px;
 }
+@media (max-width: 1199px) {
+	.session-card {
+		width: 280px;
+		padding: 13px 15px 17px;
+	}
+}
 .session-card p {
 	font-weight: 600;
 	font-size: 15px;
@@ -2085,6 +2125,21 @@ a:hover {
 }
 .progressbar-wrapper .progress .progress-bar {
 	background: #5b84fe !important;
+}
+.progressbar-wrapper .progress {
+	height: 6.89px;
+	width: 65px;
+}
+.progressbar-wrapper .progress:nth-of-type(2) {
+	width: 116px;
+}
+@media (max-width: 1199px) {
+	.progressbar-wrapper .progress {
+		width: 65px;
+	}
+	.progressbar-wrapper .progress:nth-of-type(2) {
+		width: 105px;
+	}
 }
 .count-number {
 	font-weight: 600;
@@ -2101,6 +2156,13 @@ a:hover {
 	height: 101px;
 	padding: 16px 48px;
 }
+@media (max-width: 1199px) {
+	.userinfo-wrapper {
+		width: 310px;
+		height: 90px;
+		padding: 9px 25px;
+	}
+}
 .userinfo-wrapper .user-name {
 	padding-left: 20px;
 	margin-right: auto;
@@ -2108,6 +2170,11 @@ a:hover {
 .userinfo-wrapper .user-name .name {
 	font-weight: 600;
 	font-size: 20px;
+}
+@media (max-width: 1199px) {
+	.userinfo-wrapper .user-name .name {
+		margin-bottom: 10px;
+	}
 }
 .userinfo-wrapper .user-name .name,
 .userinfo-wrapper .user-name p {
@@ -2132,6 +2199,11 @@ a:hover {
 	padding-right: 35px;
 	padding-top: 11px;
 	padding-bottom: 11px;
+}
+@media (max-width: 1199px) {
+	.some-info-content {
+		width: 280px;
+	}
 }
 .some-info-content p {
 	font-weight: 500;
@@ -2326,6 +2398,17 @@ a:hover {
 	padding-top: 49px;
 	padding-bottom: 15px;
 }
+@media (max-width: 1435px) {
+	.clock-width {
+		padding-inline: 20px;
+	}
+}
+@media (max-width: 991px) {
+	.clock-width {
+		padding-top: 16px;
+		padding-bottom: 38px;
+	}
+}
 .choose-wrapper {
 	width: 244px;
 	height: 532px;
@@ -2377,11 +2460,38 @@ a:hover {
 .right-user-content li:first-child {
 	padding: 10px 20px;
 }
+@media (max-width: 991px) {
+	.right-user-content li:first-child {
+		width: 140.9px;
+		color: #5b84fe;
+		padding: 5px 11px;
+	}
+	.right-user-content li {
+		padding: 5px 11px;
+		height: 28.69px;
+		font-weight: 600;
+		font-size: 10.3279px;
+	}
+	.right-user-content li img {
+		width: 22.21px;
+		height: 22.21px;
+		padding-right: 5px;
+	}
+}
+
 .right-user-content li:nth-of-type(2) {
 	width: 178px;
 }
 .right-user-content li:nth-of-type(3) {
 	width: 185px;
+}
+@media (max-width: 991px) {
+	.right-user-content li:nth-of-type(2) {
+		width: 107.31px;
+	}
+	.right-user-content li:nth-of-type(3) {
+		width: 112.87px;
+	}
 }
 .goal-bottom-wrapper {
 	width: 285px;
@@ -2394,11 +2504,24 @@ a:hover {
 	margin-left: auto;
 	margin-right: auto;
 }
+@media (max-width: 991px) {
+	.goal-bottom-wrapper {
+		width: 247px;
+		height: 143.87px;
+		padding: 12px 12px;
+	}
+}
 .goal-bottom-wrapper__title {
 	font-weight: 500;
 	font-size: 15px;
 	color: #545454;
 	margin-bottom: 6px;
+}
+@media (max-width: 991px) {
+	.goal-bottom-wrapper__title {
+		font-size: 13px;
+		margin-bottom: 4px;
+	}
 }
 .goal-btn {
 	border: 1px solid #5b84fe;
@@ -2423,6 +2546,36 @@ a:hover {
 	border-radius: 50%;
 	padding: 45px;
 }
+.goal-btn2 {
+	width: 57.59px;
+}
+@media (max-width: 991px) {
+	.time-tracker {
+		width: 203.82px;
+		height: 203px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.goal-btn {
+		width: 70.2px;
+		height: 21.4px;
+		font-size: 10.5962px;
+		padding-bottom: 0;
+	}
+}
+.mt-13px-mobile-change {
+	margin-top: 13px;
+}
+@media (max-width: 991px) {
+	.time-tracker__thumb {
+		display: none;
+	}
+	.mt-13px-mobile-change {
+		margin-top: 10px;
+	}
+}
+
 .start-btn {
 	background: #5b84fe;
 	border-radius: 7.69784px;
@@ -2439,12 +2592,64 @@ a:hover {
 	letter-spacing: 1.53957px;
 	box-shadow: 0px 3.07914px 7.69784px rgba(95, 136, 247, 0.4);
 }
+@media (max-width: 991px) {
+	.time-tracker .start-btn {
+		display: none;
+	}
+}
 .time-number {
 	font-weight: 700;
 	font-size: 66.2948px;
 	color: #5b84fe;
 	margin-bottom: 35px;
 }
+@media (max-width: 991px) {
+	.time-number {
+		font-size: 36.0889px;
+		margin-bottom: 0;
+	}
+}
 .time-tracker__thumb {
 	margin-bottom: 28px;
+}
+.choose-bg-btn {
+	font-weight: 500;
+	font-size: 10.2317px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #5b84fe;
+	width: 125.67px;
+	height: 29px;
+	background: rgba(239, 243, 255, 0.8);
+	border: 0.90625px solid #5b84fe;
+	backdrop-filter: blur(1.20833px);
+	border-radius: 3.02083px;
+	text-decoration: none;
+}
+.tree-bg {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 85px;
+	z-index: -1;
+}
+.bottom-shape-gallery {
+	position: absolute;
+	right: 30px;
+	bottom: 124px;
+}
+.main-gallery {
+	height: 745px;
+}
+.main-gallery img {
+	text-align: center;
+}
+.main-gallery__thumb {
+	padding-top: 261px;
+}
+@media (max-width: 991px) {
+	.bg-991px {
+		background-color: #ccd9ff;
+	}
 }
