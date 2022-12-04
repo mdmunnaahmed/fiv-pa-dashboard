@@ -10,6 +10,8 @@
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/all.min.css" rel="stylesheet">
     <link href="assets/css/fontawesome.css" rel="stylesheet">
+    <link href="assets/css/nice-select.css" rel="stylesheet">
+    <link href="assets/css/datepicker.min.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/responsive.css" rel="stylesheet">
 
@@ -246,7 +248,7 @@
     <!--------- Footer area end --------->
 
     <!-- Modal -->
-    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal fade" id="staticBackdrop" data-bs-keyboard="false" tabindex="-1">
         <div class="modal-dialog book-modal-width">
             <div class="modal-content border-0">
                 <div class="modal-header modal-top-padding">
@@ -350,10 +352,21 @@
         </div>
     </div>
 
+
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/popper.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/datepicker.min.js"></script>
+    <script src="assets/js/datepicker.en.js"></script>
+    <script src="assets/js/jquery.nice-select.min.js"></script>
     <script src="assets/js/main.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('select').niceSelect();
+        });
+        $('.datepicker-here').datepicker();
+
+    </script>
 </body>
 
 </html>
