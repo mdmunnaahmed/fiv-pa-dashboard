@@ -1933,6 +1933,7 @@ a:hover {
 
 .select-group-wrapper .mobile-select {
 	margin-bottom: 27px;
+	width: 100%;
 }
 .select-group-wrapper .mobile-select .select-name,
 .select-duration {
@@ -2337,6 +2338,11 @@ a:hover {
 	width: 570px;
 	margin: 0 auto;
 }
+@media (max-width: 991px) {
+	.dashboard-content-wrapper {
+		max-width: 100%;
+	}
+}
 .top-content button {
 	width: 150px;
 	height: 49px;
@@ -2366,6 +2372,15 @@ a:hover {
 	}
 	.top-content button {
 		margin-left: 160px;
+	}
+}
+@media (max-width: 375px) {
+	.top-content button {
+		margin-left: 135px;
+		width: 115px;
+		height: 39px;
+		font-size: 12px;
+		margin-top: 4px;
 	}
 }
 .text-join-btn .title span {
@@ -2400,9 +2415,9 @@ a:hover {
 		padding-right: 5px;
 	}
 }
-@media (max-width: 575px) {
+@media (max-width: 991px) {
 	.body-card-content .card-item {
-		width: 55%;
+		width: 100%;
 	}
 }
 @media (max-width: 575px) {
@@ -2450,7 +2465,7 @@ a:hover {
 }
 @media (max-width: 575px) {
 	.bottom-card {
-		width: 55%;
+		width: 100%;
 	}
 	.bottom-card-content {
 		gap: 10px;
