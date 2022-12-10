@@ -3663,7 +3663,7 @@ New Milestone CSS Starts Here
 
 /* Rewards Section Starts Here  */
 .rewards-section {
-	padding: 45px 0;
+	padding: 45px 0 390px;
 }
 .rewards-top__title {
 	font-weight: 700;
@@ -3675,8 +3675,6 @@ New Milestone CSS Starts Here
 	font-weight: 600;
 	font-size: 30px;
 	color: #5b84fe;
-}
-.rewards-top {
 }
 .book-mark.resizing {
 	width: 132px;
@@ -3700,8 +3698,11 @@ New Milestone CSS Starts Here
 	padding-left: 17px;
 }
 .slider-wrapper {
-	padding-top: 50px;
+	padding-top: 40px;
 	padding-bottom: 80px;
+}
+.slider-wrapper .slick-list {
+	padding: 0 !important;
 }
 .rewards-slider {
 	background: #f3f6ff;
@@ -3723,17 +3724,175 @@ New Milestone CSS Starts Here
 	cursor: pointer;
 }
 .rewards-slider .slick-arrow.arrow-left {
-	left: 30px;
+	left: 25px;
 }
 .rewards-slider .slick-arrow.arrow-right {
-	right: 30px;
+	right: 25px;
 }
 .rewards-item {
-	padding: 0 40px;
+	padding: 0 35px;
 }
 .rewards-item img {
 	opacity: 0.5;
 }
 .single-slide.slick-current .rewards-item img {
 	opacity: 1;
+}
+
+.goals-text-wrapper {
+	padding-top: 80px;
+	padding-bottom: 200px;
+}
+.rewards-section .streaks-title {
+	margin-bottom: 55px;
+}
+
+@media (max-width: 1500px) {
+	.rewards-section .streaks-title {
+		margin-bottom: 35px;
+	}
+	.goals-text-wrapper {
+		padding-top: 50px;
+		padding-bottom: 150px;
+	}
+	.rewards-section {
+		padding-bottom: 200px;
+	}
+}
+@media (max-width: 1200px) {
+	.rewards-item {
+		padding: 0 20px;
+	}
+	.rewards-section .streaks-card {
+		width: 220px;
+	}
+	.rewards-section .streaks-title {
+		margin-bottom: 25px;
+	}
+	.rewards-section .streaks-area.card-wrapper-two .streaks-wrapper {
+		justify-content: center !important;
+		gap: 15px;
+	}
+	.rewards-section .streaks-card-two {
+		width: 222.44px;
+	}
+	.edit-btn {
+		width: 160px;
+		height: 60px;
+		font-size: 22px;
+	}
+	.streaks-card .title {
+		font-size: 26px;
+	}
+	.streaks-card .date-time {
+		font-size: 24px;
+	}
+	.slider-wrapper {
+		padding-top: 30px;
+		padding-bottom: 70px;
+	}
+}
+
+@media (max-width: 991px) {
+	.rewards-top__title {
+		font-size: 28px !important;
+	}
+	.rewards-top__subtitle {
+		font-size: 25px;
+	}
+	.slider-wrapper {
+		padding-bottom: 50px;
+	}
+	.rewards-section .streaks-title {
+		font-size: 24px;
+		margin-bottom: 20px;
+	}
+	.rewards-slider .slick-arrow {
+		font-size: 24px;
+	}
+	.rewards-section .streaks-wrapper {
+		gap: 15px;
+		justify-content: center !important;
+	}
+	.rewards-section {
+		padding-bottom: 100px;
+	}
+	.edit-btn {
+		width: 140px;
+		height: 52px;
+		font-size: 18px;
+	}
+	.rewards-section .streaks-card-two {
+		width: 221.44px;
+	}
+	.rewards-section .streaks-card-two .goal-select2 {
+		min-width: 150px;
+	}
+	.rewards-slider .slick-arrow.arrow-left {
+		left: 15px;
+	}
+	.rewards-item {
+		padding: 0 10px;
+	}
+	.rewards-slider .slick-arrow.arrow-right {
+		right: 15px;
+	}
+	.rewards-slider {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+}
+@media (max-width: 575px) {
+	.rewards-section .streaks-wrapper {
+		gap: 10px;
+	}
+	.rewards-section .streaks-card {
+		width: 170px;
+		height: 220px;
+		border-width: 2px;
+	}
+	.streaks-card .title {
+		margin-bottom: 20px;
+	}
+	.streaks-card .date-time {
+		margin-bottom: 20px;
+	}
+	.face-icon img {
+		width: 50px;
+	}
+	.goals-text-wrapper {
+		padding-top: 30px;
+		padding-bottom: 100px;
+	}
+	.rewards-section .streaks-card-two {
+		width: 170px;
+		border-width: 2px;
+		padding: 10px;
+	}
+	.rewards-section .streaks-area.card-wrapper-two .streaks-wrapper {
+		gap: 10px;
+	}
+	.streaks-card-two .goal-select.goal-select2 {
+		padding-inline: 10px;
+	}
+	.streaks-card-two .select-arrow-3 {
+		right: 10px;
+	}
+	.rewards-section .streaks-title {
+		font-size: 22px;
+	}
+}
+@media (max-width: 374px) {
+	.rewards-section .streaks-card {
+		width: 100%;
+	}
+	.goals-text-wrapper {
+		padding-top: 30px;
+		padding-bottom: 80px;
+	}
+	.rewards-section .streaks-card-two {
+		width: 100%;
+		padding-top: 35px;
+		padding-inline: 20px;
+	}
 }
