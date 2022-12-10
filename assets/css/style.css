@@ -2548,7 +2548,18 @@ a:hover {
 	z-index: 22;
 	position: absolute;
 }
+<<<<<<< HEAD
 
+=======
+@media (max-width: 991px) {
+	.choose-wrapper {
+		position: absolute;
+		left: 0;
+		top: 100%;
+		z-index: 1111;
+	}
+}
+>>>>>>> 2fa6d0c91d47da4de822286cf516cbb165f105a3
 .choose-wrapper .title {
 	font-weight: 500;
 	font-size: 16.9353px;
@@ -2797,7 +2808,7 @@ svg circle {
 	letter-spacing: 1.53957px;
 	box-shadow: 0px 3.07914px 7.69784px rgba(95, 136, 247, 0.4);
 	position: relative;
-	z-index: 111111;
+	z-index: 1;
 }
 @media (max-width: 991px) {
 	.time-tracker .start-btn {
