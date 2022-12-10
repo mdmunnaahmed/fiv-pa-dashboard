@@ -118,12 +118,12 @@
             <div class="d-flex flex-wrap justify-content-between">
                 <div class="left-choose-area">
                     <a href="#0" class="choose-bg-btn d-lg-none">Choose background</a>
-                    <a href="" class="d-none d-lg-flex"
+                    <a href="#0" class="choose-bg-btn d-none d-lg-flex"
                         style="box-shadow: 2px 2px 9px rgba(91, 132, 254, 0.5);width: 45px; margin-bottom: 18px; border: 2px solid #5B84FE; border-radius: 50%; height: 45px; display: flex; justify-content: center; align-items: center;">
                         <img src="assets/img/show-icon.png" alt="">
                     </a>
 
-                    <div class="choose-wrapper d-none d-lg-block">
+                    <div class="choose-wrapper d-none">
                         <h5 class="title">Choose a background</h5>
                         <div class="choose-thumb" data-image="assets/img/thumb01.png">
                             <img src="assets/img/thumb01.png" alt="">
@@ -139,7 +139,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="middle-content d-none d-sm-block">
+                <div class="middle-content d-none d-lg-block">
                     <div class="time-tracker text-center">
                         <div class="time-tracker__thumb">
                             <img src="assets/img/time-tracker.svg" alt="">
@@ -159,7 +159,7 @@
                     <li><img src="assets/img/clock-user.svg" alt=""> Jonas joined.</li>
                 </ul>
             </div>
-            <div class="middle-content d-sm-none mt-5 position-relative">
+            <div class="middle-content d-lg-none mt-5 position-relative">
                 <div class="time-tracker text-center mx-auto position-relative">
                     <div class="time-tracker__thumb">
                         <img src="assets/img/time-tracker.svg" alt="">
@@ -183,8 +183,17 @@
                         <button class="goal-btn goal-btn2">Tool 2</button>
                     </div>
                 </div>
-                <div class="tree-bg">
+                <div class="tree-bg text-center">
                     <img src="assets/img/tree-bg.png" alt="">
+                </div>
+            </div>
+            <div class="goal-bottom-wrapper goal-bottom-wrapper2 text-center d-none d-lg-block">
+                <h6 class="goal-bottom-wrapper__title">This is the Goal you are working on</h6>
+                <button class="goal-btn">Goal name</button>
+                <div class="mt-13px-mobile-change">
+                    <h6 class="goal-bottom-wrapper__title">Tool you are using</h6>
+                    <button class="goal-btn mb-1 goal-btn2">Tool 1</button>
+                    <button class="goal-btn goal-btn2">Tool 2</button>
                 </div>
             </div>
         </div>
