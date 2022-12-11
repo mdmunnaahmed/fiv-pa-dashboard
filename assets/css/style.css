@@ -4056,7 +4056,8 @@ New Milestone CSS Starts Here
 .comments-box input {
 	height: 72.83px;
 	border: 1.45657px solid #5b84fe;
-	filter: drop-shadow(117.982px 77.198px 56.8061px rgba(37, 46, 55, 0.01)) drop-shadow(65.5455px 43.697px 48.0667px rgba(37, 46, 55, 0.05)) drop-shadow(29.1313px 18.9354px 34.9576px rgba(37, 46, 55, 0.09)) drop-shadow(7.28283px 4.3697px 18.9354px rgba(37, 46, 55, 0.1)) drop-shadow(0px 0px 0px rgba(37, 46, 55, 0.1));
+	filter: drop-shadow(117.982px 77.198px 56.8061px rgba(37, 46, 55, 0.01)) drop-shadow(65.5455px 43.697px 48.0667px rgba(37, 46, 55, 0.05)) drop-shadow(29.1313px 18.9354px 34.9576px rgba(37, 46, 55, 0.09))
+		drop-shadow(7.28283px 4.3697px 18.9354px rgba(37, 46, 55, 0.1)) drop-shadow(0px 0px 0px rgba(37, 46, 55, 0.1));
 	border-radius: 7.28283px;
 	position: relative;
 	font-size: 23.305px;
@@ -4078,18 +4079,17 @@ New Milestone CSS Starts Here
 
 /* Goals Page Starts Here  */
 .goals-section {
-	padding: 75px 0; 
+	padding: 75px 0;
 }
 .goals-title {
 	font-weight: 700;
 	font-size: 60px;
-	color: #5B84FE;
+	color: #5b84fe;
 }
 .goal-wrapper {
-	
 }
 .goal-top {
-	background: #00BA73;
+	background: #00ba73;
 	border-radius: 10px 10px 0px 0px;
 	height: 100px;
 	padding-inline: 20px;
@@ -4110,7 +4110,7 @@ New Milestone CSS Starts Here
 	color: #fff !important;
 	width: 216.17px;
 	height: 64.63px;
-	background: #5B84FE;
+	background: #5b84fe;
 	box-shadow: 2.97137px 2.97137px 7.42843px 0.742843px rgba(0, 0, 0, 0.25);
 	border-radius: 7.42843px;
 	display: flex;
@@ -4125,7 +4125,7 @@ New Milestone CSS Starts Here
 	padding: 35px 0;
 }
 .actual-progress .title {
-	color: #00BA73;
+	color: #00ba73;
 }
 .actual-progress img {
 	padding-right: 20px;
@@ -4139,20 +4139,19 @@ New Milestone CSS Starts Here
 .time-listing li {
 	font-weight: 500;
 	font-size: 30px;
-	color: #5378E7;
+	color: #5378e7;
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
 }
 .time-listing li:first-child {
-	color: #26376B;
+	color: #26376b;
 	font-weight: 600;
-
 }
 .right-checkbox input {
 	width: 37px;
 	height: 37px;
-	border-color: #5B84FE !important;
+	border-color: #5b84fe !important;
 	border-radius: 9px !important;
 }
 .text-left {
@@ -4164,3 +4163,142 @@ New Milestone CSS Starts Here
 .medile-checkbox {
 	list-style: none;
 }
+
+/*===================== Munna Css Start  =======================*/
+* {
+	box-sizing: border-box;
+}
+a {
+	display: inline-block;
+	text-decoration: none;
+}
+.blue-btn {
+	font-size: 26px;
+	color: #fff;
+	background-color: #5b84fe;
+	padding: 15px 35px;
+	border-radius: 8px;
+}
+.blue-btn i {
+	font-size: 22px;
+	margin-right: 6px;
+}
+.blue-btn:hover {
+	color: #fff;
+}
+.goal-setup-banner {
+	/* border-bottom: 3px solid #5b84fe; */
+}
+.goal-setup-section {
+	background-color: #f9fafb;
+	padding-bottom: 30px;
+}
+.text--green {
+	color: #00ba73 !important;
+}
+.text--blue {
+	color: #5b84fe !important;
+}
+.goal-setup-inner {
+	padding-top: 45px;
+	padding-bottom: 45px;
+	border-top: 3px solid #5b84fe;
+}
+.goal-setup-inner p {
+	font-size: 25px;
+}
+
+.inner-label {
+	font-size: 25px;
+	font-weight: 600;
+}
+.form-label {
+	font-size: 28px;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+.form--control2 {
+	border: 1px solid #91adfe;
+	height: 67px;
+	box-shadow: none !important;
+	padding-inline: 30px;
+	font-size: 22px;
+}
+.max-400 {
+	max-width: 400px;
+}
+.max-600 {
+	max-width: 650px;
+}
+.form--check {
+	padding-left: 0;
+}
+.form--check .select-arrow-3 {
+	right: 15px;
+}
+.form--check .form-check-input {
+	float: initial;
+	margin-left: 25px;
+	box-shadow: none !important;
+	width: 35px;
+	height: 35px;
+	border-radius: 7px;
+}
+.form--check .form-check-label {
+	width: max-content;
+	font-size: 25px;
+}
+
+@media (max-width: 767px) {
+	.form--check {
+		flex-wrap: wrap;
+	}
+	.form--check .form-check-label {
+		margin-bottom: 10px;
+		font-size: 20px;
+	}
+	.form--check .form-check-input {
+		font-size: 16px;
+	}
+	.form-label {
+		font-size: 20px;
+		font-weight: 600;
+		margin-bottom: 10px;
+	}
+	.inner-label {
+		font-size: 20px;
+		font-weight: 600;
+	}	
+	.form--control2 {
+		border: 1px solid #91adfe;
+		height: 55px;
+		box-shadow: none !important;
+		padding-inline: 20px;
+		font-size: 18px;
+	}
+	.select-arrow-3 {
+		top: auto;
+		bottom: 20px;
+	}
+	.goal-setup-inner p {
+		font-size: 20px;
+	}
+	.empty-select {
+		width: 100% !important;
+		font-size: 20px;
+		height: 60px;
+		line-height: 60px;
+	}
+	.blue-btn {
+		font-size: 20px;
+		padding-top: 11px;
+		padding-bottom: 11px;
+	}
+	.blue-btn i {
+		font-size: 17px;
+	}
+}
+.empty-select {
+	padding-inline: 35px;
+}
+/*===================== Munna Css End =======================*/
