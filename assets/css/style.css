@@ -2548,18 +2548,6 @@ a:hover {
 	z-index: 22;
 	position: absolute;
 }
-<<<<<<< HEAD
-
-=======
-@media (max-width: 991px) {
-	.choose-wrapper {
-		position: absolute;
-		left: 0;
-		top: 100%;
-		z-index: 1111;
-	}
-}
->>>>>>> 2fa6d0c91d47da4de822286cf516cbb165f105a3
 .choose-wrapper .title {
 	font-weight: 500;
 	font-size: 16.9353px;
@@ -3906,4 +3894,184 @@ New Milestone CSS Starts Here
 		padding-top: 35px;
 		padding-inline: 20px;
 	}
+}
+
+/* Statistics Section Starts Here */
+.statistics-section {
+	padding-top: 60px;
+	padding-bottom: 230px;
+}
+.partners-wrapper {
+	gap: 65px;
+}
+.partner-left {
+	width: 296px;
+	height: 186px;
+	background: #ffffff;
+	border: 1px solid #8a8a8a;
+	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+}
+.partner-left .title {
+	font-weight: 600;
+	font-size: 20px;
+	height: 52px;
+	background: #5b84fe;
+}
+.projections-wrapper {
+	height: 1027px;
+	background: #ffffff;
+	border: 1px solid #8a8a8a;
+	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+}
+.projections-content {
+	padding: 50px 74px 94px;
+}
+.projections-title {
+	font-weight: 700;
+	font-size: 25px;
+	color: #5b84fe;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.projections-list {
+	list-style: none;
+}
+.projections-list li:not(:last-child) {
+	margin-bottom: 30px;
+}
+.projections-subtitle {
+	font-weight: 700;
+	font-size: 25px;
+	color: #00ba73;
+	padding-top: 110px;
+	padding-bottom: 45px;
+}
+.calendar-list {
+	list-style: none;
+}
+.calendar-list .calender {
+	width: 298.64px;
+	height: 53.87px;
+	background: #eff3ff;
+	border: 2.3423px solid #91adfe;
+	border-radius: 35.1345px;
+	padding-inline: 22px;
+}
+.goal-text {
+	font-weight: 700;
+	font-size: 25px;
+	color: #7c9dfe;
+}
+.calendar-list li {
+	gap: 87px;
+}
+.calendar-list li:nth-of-type(2) .calender {
+	color: #54d1a1;
+	border-color: #54d1a1;
+}
+.calendar-list li:nth-of-type(2) .calender .title {
+	color: #54d1a1;
+}
+.calendar-list li:nth-of-type(2) .calender i {
+	color: #54d1a1;
+}
+.calendar-list li:nth-of-type(2) .goal-text {
+	color: #54d1a1;
+}
+.calendar-list li:not(:last-child) {
+	margin-bottom: 20px;
+}
+.calendar-list li:last-child .calender {
+	border-color: #545454;
+}
+.calendar-list li:last-child .calender i {
+	color: #545454;
+}
+.calendar-list li:last-child .calender .title {
+	color: #545454;
+}
+.calendar-list li:last-child .goal-text {
+	color: #545454;
+}
+.calendar-list .calender .title {
+	margin-bottom: 0px;
+	padding-left: 30px;
+	font-weight: 700;
+	font-size: 23.423px;
+	color: #91adfe;
+}
+.calendar-list .calender i {
+	color: #91adfe;
+	font-size: 22px;
+}
+.comments-wrapper {
+	height: 721px;
+	background: #ffffff;
+	border: 1px solid #8a8a8a;
+	box-shadow: 5.82626px 5.82626px 5.82626px rgba(0, 0, 0, 0.25);
+	border-radius: 16px 16px 14.5657px 14.5657px;
+	border-top: 0;
+}
+.cmn-top-wrapper {
+	padding-inline: 50px;
+	height: 73.13px;
+	background: #5b84fe;
+	border-bottom: 1.45657px solid #9ca3af;
+	border-radius: 14.5657px 14.5657px 0px 0px;
+}
+.cmn-top-wrapper .left .title {
+	font-weight: 600;
+	font-size: 29.1313px;
+}
+.cmn-top-wrapper .right {
+	font-size: 25.1313px;
+	line-height: 1;
+}
+.messages {
+	padding: 109px 30px 150px;
+}
+.messages-left,
+.messages-right {
+	border: 1.45657px solid #5b84fe;
+	border-radius: 36.4141px;
+	padding: 14px 15px;
+	width: 956.96px;
+	font-size: 23.305px;
+	color: #5b84fe;
+}
+.messages-left {
+	margin-bottom: 45px;
+}
+.messages-right {
+	margin-left: auto;
+	color: #00ba73;
+	border-color: #00ba73;
+}
+.comments-box {
+	padding-inline: 30px;
+	position: relative;
+}
+.comments-box input {
+	height: 72.83px;
+	border: 1.45657px solid #5b84fe;
+	filter: drop-shadow(117.982px 77.198px 56.8061px rgba(37, 46, 55, 0.01)) drop-shadow(65.5455px 43.697px 48.0667px rgba(37, 46, 55, 0.05)) drop-shadow(29.1313px 18.9354px 34.9576px rgba(37, 46, 55, 0.09)) drop-shadow(7.28283px 4.3697px 18.9354px rgba(37, 46, 55, 0.1)) drop-shadow(0px 0px 0px rgba(37, 46, 55, 0.1));
+	border-radius: 7.28283px;
+	position: relative;
+	font-size: 23.305px;
+}
+.comments-box input::placeholder {
+	color: #5b84fe;
+}
+.comments-box button {
+	position: absolute;
+	right: 60px;
+	top: 18px;
+	padding: 0;
+	background-color: transparent;
+	border: none;
+}
+.mb--74px {
+	margin-bottom: 74px;
 }
