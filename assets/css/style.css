@@ -4143,24 +4143,379 @@ New Milestone CSS Starts Here
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
+	padding: 12px 0;
 }
 .time-listing li:first-child {
 	color: #26376B;
 	font-weight: 600;
 
 }
-.right-checkbox input {
+.medile-checkbox input {
 	width: 37px;
 	height: 37px;
-	border-color: #5B84FE !important;
-	border-radius: 9px !important;
+	border-color: #5B84FE;
+	border-radius: 9px;
+	margin-left: 40px;
 }
-.text-left {
-	max-width: 535px;
+.medile-checkbox li {
+	line-height: 1;
+	padding: 0;
+	margin: 0;
+	padding: 15px 0;
+	color: #5378E7;
 }
-.right-checkbox {
-	padding-left: 50px;
+.medile-checkbox li span {
+	width: 100px;
+	display: block;
+	text-align: end;
 }
 .medile-checkbox {
 	list-style: none;
+	font-weight: 600;
+	font-size: 30px;
+}
+.medile-checkbox li:first-child {
+	color: #26376B;
+
+}
+.cmn--goal-btn.cmn--goal-btn2 {
+	width: 290px;
+	height: 58px;
+	margin-left: 80px;
+	font-weight: 500;
+	font-size: 25px;
+ }
+.goal-bottom-content {
+	width: 978px;
+	padding-left: 80px;
+}
+.progress-bar-percentage {
+	height: 69px;
+	background: #CCD9FF;
+	border-radius:  16.4537px;
+	overflow: hidden;
+}
+.progress-bar-percentage .progress-bar {
+	background: #5B84FE;
+	overflow: initial;
+}
+.progress-bar-partentce {
+	padding-inline: 75px;
+	list-style: none;
+	width: 132%;
+}
+.progress-bar-partentce li {
+	color: #CCD9FF;
+	font-weight: 600;
+	font-size: 27.9713px;
+}
+.progress-bar-partentce li:last-child {
+	color: #5B84FE;
+}
+.cup-wrapper {
+	padding-inline: 0px;
+	padding-top: 40px;
+}
+.estimate-wrapper {
+	padding-top: 50px;
+}
+.delete-archive-btn {
+	gap: 30px;
+	padding-top: 170px;
+	margin-left: auto;
+	max-width: 340px;
+}
+.delete-btn {
+	width: 155px;
+	height: 65px;
+	background: #5B84FE;
+	box-shadow: 2.97137px 2.97137px 7.42843px 0.742843px rgba(0, 0, 0, 0.25);
+	border-radius: 7.42843px;
+	font-weight: 600;
+	font-size: 25.9995px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	color: #FFFFFF !important;
+}
+.milestione-title {
+	font-weight: 600;
+	font-size: 28px;
+	color: #26376B;
+	margin-bottom: 25px;
+}
+.milestone-list li img {
+	width: 40px;
+}
+.milestone-list li {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	gap: 16px;
+}
+.milestone-list li:not(:last-child) {
+	margin-bottom: 15px;
+}
+.milestone-list input {
+	width: 487px;
+	height: 67.94px;
+	border: 2.05616px solid #91ADFE;
+	box-shadow: 3.61196px 3.61196px 10.8359px 2.05616px rgba(91, 132, 254, 0.25);
+	border-radius: 5.14039px;
+	padding-inline: 36px;
+	font-size: 22px;
+	color: #A3A3A3;
+}
+.width-control {
+	margin-left: 80px;
+	width: 900px;
+}
+.actual-progress .title {
+	font-size: 30px;
+}
+@media (max-width: 1500px) {
+	.goals-title {
+		font-size: 48px;
+	}
+	.cmn--goal-btn {
+		font-size: 20px;
+		width: 187.17px;
+    	height: 55.63px;
+		margin-bottom: 40px !important;
+	}
+	.goal-top {
+		height: 75px;
+	}
+	.goal-name {
+		font-size: 30px;
+	}
+	.actual-progress .title {
+		font-size: 26px;
+	}
+	.actual-progress img {
+		width: 60px;
+		padding-right: 15px;
+	}
+	.time-listing li {
+		font-size: 25px;
+	}
+	.medile-checkbox input {
+		width: 31px;
+		height: 31px;
+		margin-left: 30px;
+	}
+	.medile-checkbox li span {
+		font-size: 25px;
+	}
+	.cmn--goal-btn.cmn--goal-btn2 {
+		font-size: 20px;
+		width: 270px;
+	}
+	.cmn--goal-btn.cmn--goal-btn2 {
+		margin-bottom: 35px !important;
+	}
+	.progress-bar-percentage {
+		height: 60px;
+	}
+	.progress-bar-partentce li {
+		font-size: 25px;
+	}
+	.cup-wrapper {
+		padding-top: 30px;
+	}
+	.actual-progress {
+		padding-top: 25px;
+		padding-bottom: 10px !important;
+	}
+	.delete-archive-btn {
+		padding-top: 160px;
+	}
+	.delete-btn {
+		width: 150px;
+		height: 55px;
+		font-size: 20px;
+	}
+	.goal-wrapper {
+		padding-top: 35px !important;
+	}
+	.milestione-title {
+		font-size: 25px;
+	}
+	.milestone-list input {
+		height: 60px;
+		font-size: 20px;
+		padding-inline: 25px;
+	}
+}
+@media (max-width: 1199px) {
+	.goal-bottom-content {
+		width: 900px;
+	}
+	.width-control {
+		width: 822px;
+	}
+	.delete-archive-btn {
+		padding-top: 130px;
+	}
+	.goals-section {
+		padding: 50px 0;
+	}
+	.goals-title {
+		font-size: 42px;
+		margin-bottom: 0px;
+	}
+}
+@media (max-width: 991px) {
+	.time-listing {
+		padding-left: 0px;
+	}
+	.cmn--goal-btn.cmn--goal-btn2 {
+		margin-left: 0px;
+	}
+	.goal-bottom-content {
+		padding-left: 0px;
+		max-width: 680px;
+		width: 100%;
+	}
+	.progress-bar-partentce {
+		padding-inline: 50px;
+	}
+	.progress-bar-partentce li {
+		font-size: 20px;
+	}
+	.width-control {
+		margin-left: 0px;
+		max-width: 680px;
+		width: 100%;
+	}
+	.estimate-wrapper {
+		padding-top: 30px;
+	}
+	.cup-item img {
+		width: 40px;
+	}
+	.master-thumb {
+		margin-top: 10px;
+	}
+	.progress-bar-percentage {
+		height: 52px;
+	}
+	.goals-title {
+		font-size: 38px;
+	}
+	.goal-top {
+		height: 68px;
+	}
+	.goal-name {
+		font-size: 27px;
+	}
+	.actual-progress .title {
+		font-size: 24px;
+	}
+	.delete-archive-btn {
+		padding-top: 100px;
+	}
+}
+
+@media (max-width: 767px) {
+	.goals-title {
+		font-size: 35px;
+	}
+	.cmn--goal-btn {
+		font-size: 16px;
+		width: 130.17px;
+		height: 50.63px;
+		margin-bottom: 30px !important;
+	}
+	.cmn--goal-btn i {
+		padding-right: 10px;
+	}
+	.goal-top {
+		height: 60px;
+	}
+	.goal-name {
+		font-size: 22px;
+	}
+	.goal-name img {
+		width: 35px;
+	}
+	.actual-progress .title {
+		font-size: 20px;
+	}
+	.actual-progress img {
+		width: 50px;
+	}
+	.time-listing li {
+		font-size: 20px;
+	}
+	.medile-checkbox input {
+		width: 27px;
+		height: 27px;
+	}
+	.medile-checkbox li {
+		padding: 12.5px 0;
+	}
+	.medile-checkbox li span {
+		font-size: 22px;
+	}
+	.cmn--goal-btn.cmn--goal-btn2 {
+		font-size: 16px;
+		width: 200px;
+		height: 50px;
+	}
+	.delete-btn {
+		width: 130px;
+		height: 50px;
+		font-size: 16px;
+	}
+	.delete-archive-btn {
+		padding-top: 80px;
+	}
+}
+@media (max-width: 575px) {
+	.goals-title {
+		font-size: 28px;
+	}
+	.master-thumb {
+		display: none;
+	}
+	.time-listing li {
+		font-size: 18px;
+	}
+	.medile-checkbox input {
+		margin-left: 20px;
+	}
+	.medile-checkbox li span {
+		width: 30px;
+	}
+	.milestone-list li {
+		gap: 10px;
+	}
+	.milestone-list input {
+		height: 50px;
+		padding-inline: 15px;
+		font-size: 16px;
+	}
+	.milestone-list {
+		padding-left: 0px;
+	}
+	.milestone-list li img {
+		width: 35px;
+	}
+	.progress-bar-partentce {
+		padding-inline: 25px;
+	}
+	.progress-bar-partentce li {
+		font-size: 16px;
+	}
+	.delete-archive-btn {
+		padding-top: 50px;
+	}
+	.milestione-title {
+		font-size: 22px;
+	}
+	.cup-item img {
+		width: 35px;
+	}
 }
