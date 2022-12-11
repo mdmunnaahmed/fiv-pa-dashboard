@@ -4075,3 +4075,92 @@ New Milestone CSS Starts Here
 .mb--74px {
 	margin-bottom: 74px;
 }
+
+/* Goals Page Starts Here  */
+.goals-section {
+	padding: 75px 0; 
+}
+.goals-title {
+	font-weight: 700;
+	font-size: 60px;
+	color: #5B84FE;
+}
+.goal-wrapper {
+	
+}
+.goal-top {
+	background: #00BA73;
+	border-radius: 10px 10px 0px 0px;
+	height: 100px;
+	padding-inline: 20px;
+}
+.goal-name {
+	font-size: 40px;
+	line-height: 1;
+	margin-bottom: 0;
+}
+.goal-name img {
+	padding-right: 3px;
+	margin-top: -3px;
+}
+.cmn--goal-btn {
+	font-weight: 600;
+	font-size: 25.9995px;
+	text-decoration: none;
+	color: #fff !important;
+	width: 216.17px;
+	height: 64.63px;
+	background: #5B84FE;
+	box-shadow: 2.97137px 2.97137px 7.42843px 0.742843px rgba(0, 0, 0, 0.25);
+	border-radius: 7.42843px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: auto;
+}
+.cmn--goal-btn i {
+	padding-right: 17px;
+}
+.actual-progress {
+	padding: 35px 0;
+}
+.actual-progress .title {
+	color: #00BA73;
+}
+.actual-progress img {
+	padding-right: 20px;
+}
+.time-listing {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	padding-left: 80px;
+}
+.time-listing li {
+	font-weight: 500;
+	font-size: 30px;
+	color: #5378E7;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.time-listing li:first-child {
+	color: #26376B;
+	font-weight: 600;
+
+}
+.right-checkbox input {
+	width: 37px;
+	height: 37px;
+	border-color: #5B84FE !important;
+	border-radius: 9px !important;
+}
+.text-left {
+	max-width: 535px;
+}
+.right-checkbox {
+	padding-left: 50px;
+}
+.medile-checkbox {
+	list-style: none;
+}
