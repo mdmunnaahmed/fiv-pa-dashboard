@@ -3903,20 +3903,180 @@ New Milestone CSS Starts Here
 }
 .partners-wrapper {
 	gap: 65px;
+	margin-bottom: 60px;
 }
-.partner-left {
+.cmn-share-btn {
+	width: 165px;
+	height: 60px;
+	font-weight: 600;
+	font-size: 16px;
+	color: #fff !important;
+	background: #00BA73;
+	box-shadow: 0px 12px 21px 4px rgba(68, 97, 242, 0.15);
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.cmn-share-btn i {
+	padding-right: 15px;
+	margin-top: 2px;
+	font-size: 30px;
+}
+.cmn-share-btn.cmn-share-btn2 {
+	background: #B0B0B0;
+}
+.partners-left {
 	width: 296px;
 	height: 186px;
 	background: #ffffff;
 	border: 1px solid #8a8a8a;
 	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
 	border-radius: 10px;
+	overflow: hidden;
+	border-top: none;
 }
-.partner-left .title {
+.partners-list {
+	list-style: none;
+	padding: 13px 22px 15px;
+	margin-top: 0px;
+}
+.partners-list li {
+	padding: 3px 0;
+	font-weight: 500;
+	font-size: 17px;
+	color: #5B84FE;
+}
+.partners-list li:nth-of-type(2) {
+	color: #545454;
+}
+.partners-list li:nth-of-type(3) {
+	color: #00BA73;
+}
+.partners-list li img {
+	padding-right: 15px;
+}
+.partners-left .title {
 	font-weight: 600;
 	font-size: 20px;
 	height: 52px;
 	background: #5b84fe;
+	display: block;
+	line-height: 52px;
+	color: #fff;
+	padding-inline: 26px;
+}
+
+.ninja-wrapper {
+	height: 650px;
+	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+	border: 1px solid #8a8a8a;
+	margin-bottom: 70px;
+	border-radius: 13px 13px 10px 10px;
+	border-top: none;
+}
+.ninja-content__title {
+	font-size: 60px;
+	font-weight: 800;
+	margin-bottom: 60px;
+}
+.ninja-content__subtitle {
+	font-weight: 600;
+	font-size: 40px;
+	color: #5B84FE;
+	margin-bottom: 100px;
+}
+.ninja-content {
+	padding: 50px 75px;
+}
+.cmn-share-btn.btn-track {
+	font-weight: 600;
+	font-size: 30px;
+	width: 299px;
+	height: 80px;
+	background: #00BA73;
+	box-shadow: 0px 12px 21px 4px rgba(68, 97, 242, 0.15);
+	border-radius: 10px;
+} 
+.ninja-text {
+	font-weight: 600;
+	font-size: 30px;
+	color: #00BA73;
+	margin-top: 40px;
+}
+.ninja-right .title {
+	font-weight: 800;
+	font-size: 60px;
+	color: #32498C;
+}
+.ninja-right img {
+	margin-top: 50px;
+}
+.ninja-wrapper-two .ninja-text {
+	color: #FF7658;
+}
+.ninja-wrapper-two .cmn-share-btn.btn-track {
+	background-color: #FF7658;
+	width: 243px;
+	height: 80px;
+}
+.time-table-wrapper {
+	height: 787px;
+	background: #ffffff;
+	border: 1px solid #8a8a8a;
+	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+	border-top: none;
+	margin-bottom: 70px;
+}
+.time-table-content {
+	padding: 45px 75px;
+}
+.max-w-970px {
+	max-width: 970px;
+	margin: 0 auto;
+}
+.time-title {
+	font-weight: 800;
+	font-size: 40px;
+	color: #5B84FE;
+}
+.time-number-set {
+	font-weight: 700;
+	font-size: 35px;
+	letter-spacing: 5px;
+	color: #7C9DFE;
+}
+.percentage-right {
+	gap: 36px;
+	padding-right: 50px;
+}
+.input-left__title {
+	font-weight: 700;
+	font-size: 35px;
+	color: #5B84FE;
+}
+.percentage-right .title {	
+	font-weight: 700;
+	font-size: 35px;
+	color: #5B84FE;
+}
+.input-left select {
+	width: 316.65px;
+	height: 67.94px;
+	font-weight: 400;
+	font-size: 22px;
+	color: #A3A3A3;
+}
+.input-left .goal-select2 {
+	color: #A3A3A3;
+	font-weight: 400 !important;
+	font-size: 22px !important;
+}
+.ninja-shape {
+	position: absolute;
+	bottom: 30px;
+	right: 52px;
 }
 .projections-wrapper {
 	height: 1027px;
@@ -3924,6 +4084,144 @@ New Milestone CSS Starts Here
 	border: 1px solid #8a8a8a;
 	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
 	border-radius: 10px;
+	border-top: none;
+}
+.pre-after-wrapper {
+	height: 685px;
+	background: #FFFFFF;
+	border: 1px solid #8A8A8A;
+	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+	margin-bottom: 70px;
+	border-top: none;
+	border-radius: 15px 15px;
+
+}
+.pre-after-content {
+	padding-right: 100px;
+	padding-top: 55px;
+}
+.style-two .title {
+	font-weight: 600;
+	font-size: 17px;
+	color: #5B84FE;
+	margin-bottom: 30px;
+}
+.two-content-wrpper {
+	padding-left: 245px;
+}
+.time-manage {
+	padding: 0;
+	width: 100%;
+	padding-top: 30px;
+	
+}
+.time-manage li {
+	font-weight: 600;
+	font-size: 17px;
+	color: #8A8A8A;
+}
+.time-manage li:last-child {
+	text-align: end;
+}
+.style-two .input-left__title {
+	font-size: 30px;
+}
+.pagination-wrapper-style-two {
+	margin-top: 60px;
+}
+.pagination-wrapper-style-two li a {
+	color: transparent !important;
+}
+.style-two .select-arrow-3 {
+	right: 25px;
+}
+.style-two .goal-select.goal-select2 {
+	width: 132px;
+	padding-inline: 20px;
+	font-weight: 400;
+	font-size: 22px;
+	color: #B0B0B0;
+}
+.time-manage {
+	list-style: none;
+}
+.streaks-wrapper-two {
+	height: 881px;
+	background: #FFFFFF;
+	border: 1px solid #8A8A8A;
+	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+	border-top: none;
+}
+.streaks-content {
+	padding-left: 90px;
+
+}
+.streaks-wrapper-two {
+	margin-bottom: 70px;
+}
+.days-checkbox-wrapper {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	padding-top: 85px;
+}
+.days-checkbox-wrapper li {
+	display: flex;
+	flex-wrap: wrap;
+	/* align-items: center; */
+	gap: 50px;
+	margin-bottom: 30px;
+}
+.days-checkbox-wrapper li input {
+	box-shadow: none !important;
+}
+.days-checkbox-wrapper li:nth-child(3) .title {
+	color: #00BA73;
+}
+.days-checkbox-wrapper li:nth-child(3) input {
+	background: #E6F8F1;
+	border: 2px solid #54D1A1;
+	border-radius: 5px;
+}
+.rank-number-somoy {
+	gap: 63px;
+    margin-bottom: 20px;
+    padding-left: 70px;
+}
+.rank-number-somoy li {
+	list-style: none;
+	font-weight: 700;
+	font-size: 20px;
+	color: #545454;
+	display: block !important;
+	text-align: center;
+
+}
+.rank-number-somoy li p {
+	color: #00BA73;
+	display: block;
+	font-size: 15px;
+
+}
+.days-checkbox-wrapper li span {
+	font-weight: 700;
+	font-size: 20px;
+	color: #545454;
+	transform: translateY(60%);
+}
+.days-checkbox-wrapper li input {
+	margin-right: 15px;
+}
+.checkbox-area input {
+	width: 70px;
+	height: 70px;
+}
+.checkbox-area .title {
+	font-weight: 700;
+	font-size: 30px;
+	color: #5B84FE;
+	margin-bottom: 30px;
 }
 .projections-content {
 	padding: 50px 74px 94px;
@@ -4076,6 +4374,7 @@ New Milestone CSS Starts Here
 .mb--74px {
 	margin-bottom: 74px;
 }
+
 
 /* Goals Page Starts Here  */
 .goals-section {
@@ -4660,4 +4959,8 @@ a {
 	.cup-item img {
 		width: 35px;
 	}
+}
+
+.form-check-input:checked[type=checkbox] {
+	background-image: url(../img/01.svg);
 }
