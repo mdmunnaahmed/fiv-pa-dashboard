@@ -3911,7 +3911,7 @@ New Milestone CSS Starts Here
 	font-weight: 600;
 	font-size: 16px;
 	color: #fff !important;
-	background: #00BA73;
+	background: #00ba73;
 	box-shadow: 0px 12px 21px 4px rgba(68, 97, 242, 0.15);
 	border-radius: 10px;
 	display: flex;
@@ -3924,7 +3924,7 @@ New Milestone CSS Starts Here
 	font-size: 30px;
 }
 .cmn-share-btn.cmn-share-btn2 {
-	background: #B0B0B0;
+	background: #b0b0b0;
 }
 .partners-left {
 	width: 296px;
@@ -3945,13 +3945,13 @@ New Milestone CSS Starts Here
 	padding: 3px 0;
 	font-weight: 500;
 	font-size: 17px;
-	color: #5B84FE;
+	color: #5b84fe;
 }
 .partners-list li:nth-of-type(2) {
 	color: #545454;
 }
 .partners-list li:nth-of-type(3) {
-	color: #00BA73;
+	color: #00ba73;
 }
 .partners-list li img {
 	padding-right: 15px;
@@ -3983,7 +3983,7 @@ New Milestone CSS Starts Here
 .ninja-content__subtitle {
 	font-weight: 600;
 	font-size: 40px;
-	color: #5B84FE;
+	color: #5b84fe;
 	margin-bottom: 100px;
 }
 .ninja-content {
@@ -3994,29 +3994,29 @@ New Milestone CSS Starts Here
 	font-size: 30px;
 	width: 299px;
 	height: 80px;
-	background: #00BA73;
+	background: #00ba73;
 	box-shadow: 0px 12px 21px 4px rgba(68, 97, 242, 0.15);
 	border-radius: 10px;
-} 
+}
 .ninja-text {
 	font-weight: 600;
 	font-size: 30px;
-	color: #00BA73;
+	color: #00ba73;
 	margin-top: 40px;
 }
 .ninja-right .title {
 	font-weight: 800;
 	font-size: 60px;
-	color: #32498C;
+	color: #32498c;
 }
 .ninja-right img {
 	margin-top: 50px;
 }
 .ninja-wrapper-two .ninja-text {
-	color: #FF7658;
+	color: #ff7658;
 }
 .ninja-wrapper-two .cmn-share-btn.btn-track {
-	background-color: #FF7658;
+	background-color: #ff7658;
 	width: 243px;
 	height: 80px;
 }
@@ -4039,13 +4039,13 @@ New Milestone CSS Starts Here
 .time-title {
 	font-weight: 800;
 	font-size: 40px;
-	color: #5B84FE;
+	color: #5b84fe;
 }
 .time-number-set {
 	font-weight: 700;
 	font-size: 35px;
 	letter-spacing: 5px;
-	color: #7C9DFE;
+	color: #7c9dfe;
 }
 .percentage-right {
 	gap: 36px;
@@ -4054,22 +4054,22 @@ New Milestone CSS Starts Here
 .input-left__title {
 	font-weight: 700;
 	font-size: 35px;
-	color: #5B84FE;
+	color: #5b84fe;
 }
-.percentage-right .title {	
+.percentage-right .title {
 	font-weight: 700;
 	font-size: 35px;
-	color: #5B84FE;
+	color: #5b84fe;
 }
 .input-left select {
 	width: 316.65px;
 	height: 67.94px;
 	font-weight: 400;
 	font-size: 22px;
-	color: #A3A3A3;
+	color: #a3a3a3;
 }
 .input-left .goal-select2 {
-	color: #A3A3A3;
+	color: #a3a3a3;
 	font-weight: 400 !important;
 	font-size: 22px !important;
 }
@@ -4090,11 +4090,13 @@ New Milestone CSS Starts Here
 	height: 650px;
 	background: #FFFFFF;
 	border: 1px solid #8A8A8A;
+	height: 685px;
+	background: #ffffff;
+	border: 1px solid #8a8a8a;
 	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
 	margin-bottom: 70px;
 	border-top: none;
 	border-radius: 15px 15px;
-
 }
 .pre-after-content {
 	padding-right: 100px;
@@ -4103,7 +4105,7 @@ New Milestone CSS Starts Here
 .style-two .title {
 	font-weight: 600;
 	font-size: 17px;
-	color: #5B84FE;
+	color: #5b84fe;
 	margin-bottom: 30px;
 }
 .two-content-wrpper {
@@ -4113,12 +4115,11 @@ New Milestone CSS Starts Here
 	padding: 0;
 	width: 104%;
 	padding-top: 30px;
-	
 }
 .time-manage li {
 	font-weight: 600;
 	font-size: 17px;
-	color: #8A8A8A;
+	color: #8a8a8a;
 }
 .time-manage li:last-child {
 	text-align: end;
@@ -4140,22 +4141,21 @@ New Milestone CSS Starts Here
 	padding-inline: 20px;
 	font-weight: 400;
 	font-size: 22px;
-	color: #B0B0B0;
+	color: #b0b0b0;
 }
 .time-manage {
 	list-style: none;
 }
 .streaks-wrapper-two {
 	height: 881px;
-	background: #FFFFFF;
-	border: 1px solid #8A8A8A;
+	background: #ffffff;
+	border: 1px solid #8a8a8a;
 	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
 	border-radius: 15px;
 	border-top: none;
 }
 .streaks-content {
 	padding-left: 90px;
-
 }
 .streaks-wrapper-two {
 	margin-bottom: 70px;
@@ -4200,11 +4200,11 @@ New Milestone CSS Starts Here
 	background-repeat: no-repeat;
 }
 .days-checkbox-wrapper li:nth-child(3) .title {
-	color: #00BA73;
+	color: #00ba73;
 }
 .days-checkbox-wrapper li:nth-child(3) input {
-	background: #E6F8F1;
-	border: 2px solid #54D1A1;
+	background: #e6f8f1;
+	border: 2px solid #54d1a1;
 	border-radius: 5px;
 }
 .days-checkbox-wrapper li:nth-child(4) .title {
@@ -4217,8 +4217,8 @@ New Milestone CSS Starts Here
 }
 .rank-number-somoy {
 	gap: 63px;
-    margin-bottom: 20px;
-    padding-left: 70px;
+	margin-bottom: 20px;
+	padding-left: 70px;
 }
 .rank-number-somoy li {
 	list-style: none;
@@ -4227,13 +4227,11 @@ New Milestone CSS Starts Here
 	color: #545454;
 	display: block !important;
 	text-align: center;
-
 }
 .rank-number-somoy li p {
-	color: #00BA73;
+	color: #00ba73;
 	display: block;
 	font-size: 15px;
-
 }
 .days-checkbox-wrapper li span {
 	font-weight: 700;
@@ -4251,7 +4249,7 @@ New Milestone CSS Starts Here
 .checkbox-area .title {
 	font-weight: 700;
 	font-size: 30px;
-	color: #5B84FE;
+	color: #5b84fe;
 	margin-bottom: 30px;
 }
 .projections-content {
@@ -4406,7 +4404,6 @@ New Milestone CSS Starts Here
 	margin-bottom: 74px;
 }
 
-
 /* Goals Page Starts Here  */
 .goals-section {
 	padding: 75px 0;
@@ -4526,9 +4523,6 @@ a {
 .blue-btn:hover {
 	color: #fff;
 }
-.goal-setup-banner {
-	/* border-bottom: 3px solid #5b84fe; */
-}
 .goal-setup-section {
 	background-color: #f9fafb;
 	padding-bottom: 30px;
@@ -4636,6 +4630,9 @@ a {
 	}
 	.blue-btn i {
 		font-size: 17px;
+	}
+	.session__title {
+		font-size: 30px;
 	}
 }
 .empty-select {
@@ -5303,4 +5300,7 @@ a {
     padding-left: 4px;
 }
 
+}
+.form-check-input:checked[type="checkbox"] {
+	background-image: url(../img/01.svg);
 }
