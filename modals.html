@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/all.min.css" rel="stylesheet">
+    <link href="assets/css/fontawesome.css" rel="stylesheet">
+
+    <link href="assets/css/nice-select.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet">
+
+    <title>Video New Page</title>
+</head>
+
+<body class="bg-991px">
+    <div class="overlay"></div>
+    <!--------- Header area start --------->
+    <header class="header d-none d-lg-block">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="header__logo">
+                <a href=""><img src="assets/img/logo-header.svg" alt=""></a>
+            </div>
+            <div class="header__nav color-change-nav d-flex align-items-center justify-content-end">
+                <a href="">Home</a>
+                <a href="">Guideline</a>
+                <a href="">Referral</a>
+            </div>
+            <div class="header__profile d-flex flex-wrap gap-3 align-items-center">
+                <div class="dropdown">
+                    <button class="dropdown-toggle new-base-color" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        <span><img src="assets/img/user-2.svg" alt=""></span> Steve</button>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </div>
+                <ul class="book-mark d-sm-flex flex-wrap align-items-center d-none mb-0 pb-0">
+                    <li><img src="assets/img/book-icon.svg" alt=""></li>
+                    <li>118</li>
+                    <li><a href=""><img src="assets/img/plus-icon.svg" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!--------- Header area end --------->
+
+    <!--------- Header area start --------->
+    <header class="header d-lg-none">
+        <div class="container d-flex justify-content-between align-items-center" style="padding-inline: 30px;">
+            <div class="header__logo">
+                <a href=""><img src="assets/img/logo-header.svg" alt=""></a>
+            </div>
+            <!-- <div class="header__nav color-change-nav d-flex align-items-center justify-content-end">
+                    <a href="">Home</a>
+                    <a href="">Guideline</a>
+                    <a href="">Referral</a>
+                </div> -->
+            <ul class="header__profile d-flex flex-wrap gap-2 align-items-center m-0 p-0" style="list-style: none;">
+                <li>
+                    <ul class="star d-flex flex-wrap m-0 p-0">
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                    </ul>
+                </li>
+                <li>
+                    <div class="dropdown mt-1 mt-lg-0">
+                        <button class="dropdown-toggle new-base-color" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img style="width: 17px;" src="assets/img/user-2.svg" alt="">
+                            <p class="ps-2 mb-0" style=" font-weight: 600;font-size: 12px;">Steve</p>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <ul class="d-flex flex-wrap align-items-center d-lg-none mb-0 p-0" style="list-style: none;">
+                        <li style="padding-right: 12px;"><img src="assets/img/book-mobile.svg" alt=""></li>
+                        <li class="header-trigger-wrapper"><a href="#" class="header-trigger"><img src="assets/img/mobile-menu-icon.svg" alt=""></a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <!--------- Header area end --------->
+
+    <!-- Modals -->
+    <div class="pt-5 pb-5">
+        <div class="container">
+            <button class="blue-btn fs--18px border-0" data-bs-toggle="modal" data-bs-target="#Rewardpopup">Reward pop up</button>
+            <button class="blue-btn fs--18px border-0" data-bs-toggle="modal" data-bs-target="#ChooseNinja">Choose your ninja pop-up</button>
+            <button class="blue-btn fs--18px border-0" data-bs-toggle="modal" data-bs-target="#ChooseSuperhero">Choose your Superhero pop-up</button>
+            <button class="blue-btn fs--18px border-0" data-bs-toggle="modal" data-bs-target="#ChooseSport">Choose your Sport pop-up</button>
+        </div>
+    </div>
+    <!-- Modals -->
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="Rewardpopup" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content  border-0">
+                <div class="modal-body">
+                    <div class="choose-modal">
+                        <span data-bs-dismiss="modal" class="modal-close fs--25px position-absolute  top-0"><i class="fas fa-times"></i></span>
+                        <div class="text-center">
+                            <p class="text--blue fs--25px fw-bold">Congratulations!</p>
+                            <p class="fs--18px">Steve, you have achieved 100%, goal complete</p>
+                            <p class="fs--18px">You promised to treat yourself to a meal</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="ChooseNinja" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content  border-0">
+                <div class="modal-body">
+                    <div class="choose-modal">
+                        <span data-bs-dismiss="modal" class="modal-close fs--25px position-absolute  top-0"><i class="fas fa-times"></i></span>
+                        <div class="text-center">
+                            <p class="text--blue fs--25px fw-bold mb-5">Choose your ninja</p>
+                            <div class="choose-ninja-wrapper">
+                                <div class="choose-ninja-item">
+                                    <img src="./assets/img/ninja/nin1.png" alt="ninja">
+                                </div>
+                                <div class="choose-ninja-item">
+                                    <img src="./assets/img/ninja/nin2.png" alt="ninja">
+                                </div>
+                                <div class="choose-ninja-item">
+                                    <img src="./assets/img/ninja/nin3.png" alt="ninja">
+                                </div>
+                                <div class="choose-ninja-item">
+                                    <img src="./assets/img/ninja/nin4.png" alt="ninja">
+                                </div>
+                                <div class="choose-ninja-item">
+                                    <img src="./assets/img/ninja/nin5.png" alt="ninja">
+                                </div>
+                                <div class="choose-ninja-item">
+                                    <img src="./assets/img/ninja/nin6.png" alt="ninja">
+                                </div>
+                                <div class="choose-ninja-item">
+                                    <img src="./assets/img/ninja/nin7.png" alt="ninja">
+                                </div>
+                                <div class="choose-ninja-item">
+                                    <img src="./assets/img/ninja/nin8.png" alt="ninja">
+                                </div>
+                                <div class="choose-ninja-item">
+                                    <img src="./assets/img/ninja/nin9.png" alt="ninja">
+                                </div>
+                                <div class="choose-ninja-item d-flex align-items-center justify-content-center">
+                                    <span style="font-size: 10px;" class="fw-bold text--blue">NONE</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="ChooseSuperhero" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content  border-0">
+                <div class="modal-body">
+                    <div class="choose-modal">
+                        <span data-bs-dismiss="modal" class="modal-close fs--25px position-absolute  top-0"><i class="fas fa-times"></i></span>
+                        <div class="text-center">
+                            <p class="text--blue fs--25px fw-bold mb-5">Choose your superhero</p>
+                            <div class="choose-ninja-wrapper">
+                                <div class="choose-ninja-item">
+                                    <img src="./assets/img/ninja/sup1.png" alt="superhero">
+                                </div>
+                                <div class="choose-ninja-item">
+                                    <img src="./assets/img/ninja/sup2.png" alt="superhero">
+                                </div>
+                                <div class="choose-ninja-item">
+                                    <img src="./assets/img/ninja/sup3.png" alt="superhero">
+                                </div>
+                                <div class="choose-ninja-item">
+                                    <img src="./assets/img/ninja/sup4.png" alt="superhero">
+                                </div>
+                                <div class="choose-ninja-item">
+                                    <img src="./assets/img/ninja/sup5.png" alt="superhero">
+                                </div>
+                                <div class="choose-ninja-item">
+                                    <img src="./assets/img/ninja/sup6.png" alt="superhero">
+                                </div>
+                                <div class="choose-ninja-item">
+                                    <img src="./assets/img/ninja/sup7.png" alt="superhero">
+                                </div>
+                                <div class="choose-ninja-item">
+                                    <img src="./assets/img/ninja/sup8.png" alt="superhero">
+                                </div>
+                                <div class="choose-ninja-item">
+                                    <img src="./assets/img/ninja/sup9.png" alt="superhero">
+                                </div>
+                                <div class="choose-ninja-item d-flex align-items-center justify-content-center">
+                                    <span style="font-size: 10px;" class="fw-bold text--blue">NONE</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="ChooseSport" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content  border-0">
+                <div class="modal-body">
+                    <div class="choose-modal">
+                        <span data-bs-dismiss="modal" class="modal-close fs--25px position-absolute  top-0"><i class="fas fa-times"></i></span>
+                        <div class="text-center">
+                            <p class="text--blue fs--25px fw-bold mb-5">Choose your sport</p>
+                            <div class="choose-ninja-wrapper">
+                                <div class="choose-ninja-item">
+                                    <img src="./assets/img/ninja/spo1.png" alt="sport">
+                                </div>
+                                <div class="choose-ninja-item">
+                                    <img src="./assets/img/ninja/spo2.png" alt="sport">
+                                </div>
+                                <div class="choose-ninja-item">
+                                    <img src="./assets/img/ninja/spo3.png" alt="sport">
+                                </div>
+                                <div class="choose-ninja-item">
+                                    <img src="./assets/img/ninja/spo4.png" alt="sport">
+                                </div>
+                                <div class="choose-ninja-item">
+                                    <img src="./assets/img/ninja/spo5.png" alt="sport">
+                                </div>
+                                <div class="choose-ninja-item">
+                                    <img src="./assets/img/ninja/spo6.png" alt="sport">
+                                </div>
+                                <div class="choose-ninja-item">
+                                    <img src="./assets/img/ninja/spo7.png" alt="sport">
+                                </div>
+                                <div class="choose-ninja-item">
+                                    <img src="./assets/img/ninja/spo8.png" alt="sport">
+                                </div>
+                                <div class="choose-ninja-item">
+                                    <img src="./assets/img/ninja/spo9.png" alt="sport">
+                                </div>
+                                <div class="choose-ninja-item d-flex align-items-center justify-content-center">
+                                    <span style="font-size: 10px;" class="fw-bold text--blue">NONE</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="mobile-menu">
+        <span class="close-mobile-btn">
+            <img src="assets/img/close-icon2.svg" alt="">
+        </span>
+        <ul class="menu d-lg-none p-0 m-0">
+            <li class="menu-item">
+                <a class="menu-link active" href="">Home</a>
+            </li>
+            <li class="menu-item">
+                <a class="menu-link" href="">Guideline</a>
+            </li>
+            <li class="menu-item">
+                <a class="menu-link" href="">Referral</a>
+            </li>
+        </ul>
+    </div>
+
+    <!--------- Footer area start --------->
+    <footer class="footer bg-white">
+        <div class="container">
+            <div class="footer__top d-flex align-items-center justify-content-between">
+                <div class="footer__logo">
+                    <a href=""><img src="assets/img/logo-header.svg" alt=""></a>
+                </div>
+                <div class="footer__nav">
+                    <a href="">Home</a>
+                    <a href="">Guideline</a>
+                    <a href="">Community</a>
+                    <a href="">FAQ</a>
+                    <a href="">About Us</a>
+                    <a href="">Contact Us</a>
+                    <a href="">Terms</a>
+                    <a href="">Privacy</a>
+                </div>
+                <div class="footer__social">
+                    <a href=""><img src="assets/img/twitter.svg" alt=""></a>
+                    <a href=""><img src="assets/img/facebook.svg" alt=""></a>
+                </div>
+            </div>
+            <div class="copyright">
+                © 2022 someone. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+    <!--------- Footer area end --------->
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
