@@ -4025,7 +4025,7 @@ New Milestone CSS Starts Here
 	background: #ffffff;
 	border: 1px solid #8a8a8a;
 	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
-	border-radius: 10px;
+	border-radius: 15px;
 	border-top: none;
 	margin-bottom: 70px;
 }
@@ -4083,10 +4083,13 @@ New Milestone CSS Starts Here
 	background: #ffffff;
 	border: 1px solid #8a8a8a;
 	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
-	border-radius: 10px;
+	border-radius: 15px;
 	border-top: none;
 }
 .pre-after-wrapper {
+	height: 650px;
+	background: #FFFFFF;
+	border: 1px solid #8A8A8A;
 	height: 685px;
 	background: #ffffff;
 	border: 1px solid #8a8a8a;
@@ -4110,7 +4113,7 @@ New Milestone CSS Starts Here
 }
 .time-manage {
 	padding: 0;
-	width: 100%;
+	width: 104%;
 	padding-top: 30px;
 }
 .time-manage li {
@@ -4148,7 +4151,7 @@ New Milestone CSS Starts Here
 	background: #ffffff;
 	border: 1px solid #8a8a8a;
 	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
-	border-radius: 10px;
+	border-radius: 15px;
 	border-top: none;
 }
 .streaks-content {
@@ -4173,12 +4176,43 @@ New Milestone CSS Starts Here
 .days-checkbox-wrapper li input {
 	box-shadow: none !important;
 }
+.days-checkbox-wrapper li:nth-child(2) .title {
+	color: #5B84FE;
+}
+.days-checkbox-wrapper li:nth-child(2) input {
+	background: #EFF3FF;
+	border: 2px solid #91ADFE;
+	border-radius: 5px;
+}
+.days-checkbox-wrapper li:nth-child(2) .form-check-input:checked[type=checkbox] {
+	background-image: url(../img/check01.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.days-checkbox-wrapper li:nth-child(3) .form-check-input:checked[type=checkbox] {
+	background-image: url(../img/check02.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.days-checkbox-wrapper li:nth-child(4) .form-check-input:checked[type=checkbox] {
+	background-image: url(../img/check03.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+}
 .days-checkbox-wrapper li:nth-child(3) .title {
 	color: #00ba73;
 }
 .days-checkbox-wrapper li:nth-child(3) input {
 	background: #e6f8f1;
 	border: 2px solid #54d1a1;
+	border-radius: 5px;
+}
+.days-checkbox-wrapper li:nth-child(4) .title {
+	color: #333333;
+}
+.days-checkbox-wrapper li:nth-child(4) input {
+	background: #E6E6E6;
+	border: 2px solid #8A8A8A;
 	border-radius: 5px;
 }
 .rank-number-somoy {
@@ -4238,8 +4272,8 @@ New Milestone CSS Starts Here
 	font-weight: 700;
 	font-size: 25px;
 	color: #00ba73;
-	padding-top: 110px;
-	padding-bottom: 45px;
+	padding-top: 80px;
+	padding-bottom: 35px;
 }
 .calendar-list {
 	list-style: none;
@@ -5022,7 +5056,319 @@ a {
 		width: 35px;
 	}
 }
+.streaks-wrapper-three {
+	height: 787px;
+}
+.two-content-wrpper {
+	width: 716px;
 
+}
+.time-manage li:nth-of-type(2) {
+	font-weight: 600;
+	font-size: 17px;
+	color: #415EB4;
+}
+.pre-goal-left .title {
+	font-weight: 600;
+	font-size: 17px;
+	color: #5B84FE;
+}
+.pre-goal-wrapper {
+	padding-top: 72px;
+	padding-right: 97px;
+}
+.pre-goal-left ul {
+	list-style: none;
+	gap: 20px;
+}
+.streaks-wrapper-three .two-content-wrpper {
+	padding: 0px;
+	width: 470px;
+	padding-left: 185px;
+}
+.streaks-wrapper-three .time-manage {
+	width: 171%;
+}
+.pre-goal-left ul input {
+	width: 199px;
+	height: 71px;
+	background: #EFF3FF;
+	border: 2px solid #91ADFE;
+	border-radius: 5px;
+}
+.after-goal-bottom {
+	margin-top: 52px;
+}
+.after-goal-bottom ul input {
+	border: 2px solid #54D1A1;
+	background: #E6F8F1;
+}
+.after-goal-bottom ul input:focus {
+	border-color: #54D1A1;
+	
+	box-shadow: 0 0 0 0.25rem rgb(84 209 161 / 25%)
+}
+ @media (max-width: 1500px) {
+	.cmn-share-btn.btn-track {
+		font-size: 25px;
+		width: 270px;
+		height: 65px;
+	}
+	.ninja-content__title {
+		font-size: 50px;
+	}
+	.ninja-content__subtitle {
+		font-size: 36px;
+		margin-bottom: 95px;
+	}
+	.ninja-wrapper {
+		height: 590px;
+	}
+	.ninja-right .title {
+		font-size: 50px;
+	}
+	.pre-after-wrapper {
+		height: 640px;
+	}
+	.rank-number-somoy {
+		margin-bottom: 0px;
+	}
+	.streaks-wrapper-two {
+		height: 830px;
+	}
+	.streaks-wrapper-three {
+		height: 750px;
+	}
+ }
+
+@media (max-width: 1199px) {
+	.percentage-right img {
+		width: 350px;
+	}
+	.time-title {
+		font-size: 35px;
+	}
+	.ninja-content {
+    padding: 40px 50px;
+}
+.ninja-wrapper-two .cmn-share-btn.btn-track {
+    width: 200px;
+    height: 65px;
+}
+.ninja-content__subtitle {
+    font-size: 30px;
+    margin-bottom: 80px;
+}
+.ninja-right .title {
+    font-size: 42px;
+}
+.ninja-content__title {
+    font-size: 46px;
+}
+.cmn-top-wrapper {
+	height: 65px;
+}
+.percentage-right {
+	padding-right: 0px;
+}
+.time-table-content {
+    padding: 40px 50px;
+}
+.ninja-text {
+	font-weight: 500;
+}
+.time-table-wrapper {
+	margin-bottom: 50px;
+}
+.ninja-wrapper {
+	margin-bottom: 50px;
+}
+.partners-wrapper {
+	margin-bottom: 50px;
+}
+.time-table-wrapper {
+	height: 700px;
+}
+.cmn-top-wrapper .left .title {
+	font-size: 25px;
+}
+.messages-left, .messages-right {
+	max-width: 600px;
+}
+.messages-left p, .messages-right p {
+	font-size: 18px;
+}
+.messages {
+    padding: 60px 30px 80px;
+}
+.comments-wrapper {
+	height: 620px;
+}
+.statistics-section {
+	padding-top: 50px;
+	padding-bottom: 120px;
+}
+.days-checkbox-wrapper {
+	padding-top: 0px;
+}
+.checkbox-area input {
+    width: 50px;
+    height: 50px;
+}
+.streaks-wrapper-two {
+	margin-bottom: 50px;
+}
+.streaks-wrapper-two .streaks-content {
+	padding-inline: 50px;
+	padding-top: 40px;
+}
+.checkbox-area .title {
+	font-size: 28px;
+}
+.rank-number-somoy {
+	gap: 41px;
+}
+.rank-number-somoy li {
+	margin-bottom: 0px;
+}
+.streaks-wrapper-two {
+    height: 680px;
+}
+.days-checkbox-wrapper li .form-check-input:checked[type=checkbox] {
+	background-size: 40px;
+}
+.comments-box input {
+    height: 65.83px;
+    font-size: 20.305px;
+}
+.comments-box button img {
+	width: 30px;
+}
+.calendar-list .calender .title {
+	font-size: 20px;
+}
+.projections-subtitle {
+	padding-top: 65px;
+}
+.projections-content {
+	padding: 40px 50px 50px;
+}
+.projections-wrapper {
+	margin-bottom: 50px;
+	height: 980px;
+}
+.two-content-wrpper {
+	padding-left: 0px;
+}
+.pre-after-wrapper .two-content-wrpper .time-manage {
+    width: 86%;
+    padding-left: 125px;
+}
+.pre-goal-left ul input {
+    width: 130px;
+    height: 55px;
+}
+.pre-goal-wrapper {
+	padding-right: 0px;
+}
+.streaks-wrapper-three .two-content-wrpper {
+    padding-left: 40px;
+}
+.style-two .goal-select.goal-select2 {
+	font-size: 20px;
+	height: 60px;
+	line-height: 60px;
+}
+.style-two .goal-select .list .option {
+    padding-top: 7.7px;
+    padding-bottom: 7.7px;
+    border: 1px solid #91adfe;
+}
+.pre-goal-wrapper {
+	padding-top: 0px;
+}
+
+.two-content-wrpper .time-manage {
+    width: 114%;
+	padding-left: 4px;
+}
+
+}
+
+@media (max-width: 991px) {
+	.checkbox-area input {
+		width: 30px;
+		height: 30px;
+	}
+	.days-checkbox-wrapper li .form-check-input:checked[type=checkbox] {
+	background-size: 25px;
+}
+.cmn-share-btn {
+    width: 140px;
+    height: 50px;
+    font-size: 15px;
+}
+.cmn-share-btn i {
+    padding-right: 10px;
+    margin-top: 2px;
+    font-size: 25px;
+}
+.ninja-content__title, .ninja-right .title {
+	font-size: 38px;
+}
+.ninja-content__subtitle {
+    font-size: 28px;
+    margin-bottom: 50px;
+}
+.ninja-content__title {
+	margin-bottom: 45px;
+}
+.ninja-text {
+	font-size: 22px;
+}
+.ninja-wrapper {
+	height: 500px;
+}
+.percentage-right img {
+	width: 300px;
+}
+
+.percentage-right .title {
+	font-size: 25px;
+}
+.cmn-share-btn.btn-track {
+    font-size: 22px;
+    width: 270px;
+    height: 60px;
+}
+.ninja-wrapper-two .cmn-share-btn.btn-track {
+    width: 185px;
+    height: 60px;
+}
+.time-title {
+	font-size: 30px;
+}
+.time-number-set  {
+	font-size: 25px;
+}
+.input-left__title {
+	font-size: 28px;
+}
+.cmn-top-wrapper .left .title {
+	font-size: 20px;
+}
+.cmn-top-wrapper {
+	padding-inline: 30px;
+}
+.streaks-wrapper-three .two-content-wrpper {
+	padding-left: 0px;
+}
+.two-content-wrpper .time-manage {
+    width: 104%;
+    padding-left: 4px;
+}
+
+}
 .form-check-input:checked[type="checkbox"] {
 	background-image: url(../img/01.svg);
 }
