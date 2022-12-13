@@ -4088,8 +4088,8 @@ New Milestone CSS Starts Here
 }
 .pre-after-wrapper {
 	height: 650px;
-	background: #FFFFFF;
-	border: 1px solid #8A8A8A;
+	background: #ffffff;
+	border: 1px solid #8a8a8a;
 	height: 685px;
 	background: #ffffff;
 	border: 1px solid #8a8a8a;
@@ -4177,24 +4177,24 @@ New Milestone CSS Starts Here
 	box-shadow: none !important;
 }
 .days-checkbox-wrapper li:nth-child(2) .title {
-	color: #5B84FE;
+	color: #5b84fe;
 }
 .days-checkbox-wrapper li:nth-child(2) input {
-	background: #EFF3FF;
-	border: 2px solid #91ADFE;
+	background: #eff3ff;
+	border: 2px solid #91adfe;
 	border-radius: 5px;
 }
-.days-checkbox-wrapper li:nth-child(2) .form-check-input:checked[type=checkbox] {
+.days-checkbox-wrapper li:nth-child(2) .form-check-input:checked[type="checkbox"] {
 	background-image: url(../img/check01.svg);
 	background-position: center;
 	background-repeat: no-repeat;
 }
-.days-checkbox-wrapper li:nth-child(3) .form-check-input:checked[type=checkbox] {
+.days-checkbox-wrapper li:nth-child(3) .form-check-input:checked[type="checkbox"] {
 	background-image: url(../img/check02.svg);
 	background-position: center;
 	background-repeat: no-repeat;
 }
-.days-checkbox-wrapper li:nth-child(4) .form-check-input:checked[type=checkbox] {
+.days-checkbox-wrapper li:nth-child(4) .form-check-input:checked[type="checkbox"] {
 	background-image: url(../img/check03.svg);
 	background-position: center;
 	background-repeat: no-repeat;
@@ -4211,8 +4211,8 @@ New Milestone CSS Starts Here
 	color: #333333;
 }
 .days-checkbox-wrapper li:nth-child(4) input {
-	background: #E6E6E6;
-	border: 2px solid #8A8A8A;
+	background: #e6e6e6;
+	border: 2px solid #8a8a8a;
 	border-radius: 5px;
 }
 .rank-number-somoy {
@@ -4383,8 +4383,7 @@ New Milestone CSS Starts Here
 .comments-box input {
 	height: 72.83px;
 	border: 1.45657px solid #5b84fe;
-	filter: drop-shadow(117.982px 77.198px 56.8061px rgba(37, 46, 55, 0.01)) drop-shadow(65.5455px 43.697px 48.0667px rgba(37, 46, 55, 0.05)) drop-shadow(29.1313px 18.9354px 34.9576px rgba(37, 46, 55, 0.09))
-		drop-shadow(7.28283px 4.3697px 18.9354px rgba(37, 46, 55, 0.1)) drop-shadow(0px 0px 0px rgba(37, 46, 55, 0.1));
+	filter: drop-shadow(117.982px 77.198px 56.8061px rgba(37, 46, 55, 0.01)) drop-shadow(65.5455px 43.697px 48.0667px rgba(37, 46, 55, 0.05)) drop-shadow(29.1313px 18.9354px 34.9576px rgba(37, 46, 55, 0.09)) drop-shadow(7.28283px 4.3697px 18.9354px rgba(37, 46, 55, 0.1)) drop-shadow(0px 0px 0px rgba(37, 46, 55, 0.1));
 	border-radius: 7.28283px;
 	position: relative;
 	font-size: 23.305px;
@@ -4993,17 +4992,16 @@ a {
 }
 .two-content-wrpper {
 	width: 716px;
-
 }
 .time-manage li:nth-of-type(2) {
 	font-weight: 600;
 	font-size: 17px;
-	color: #415EB4;
+	color: #415eb4;
 }
 .pre-goal-left .title {
 	font-weight: 600;
 	font-size: 17px;
-	color: #5B84FE;
+	color: #5b84fe;
 }
 .pre-goal-wrapper {
 	padding-top: 72px;
@@ -5024,23 +5022,23 @@ a {
 .pre-goal-left ul input {
 	width: 199px;
 	height: 71px;
-	background: #EFF3FF;
-	border: 2px solid #91ADFE;
+	background: #eff3ff;
+	border: 2px solid #91adfe;
 	border-radius: 5px;
 }
 .after-goal-bottom {
 	margin-top: 52px;
 }
 .after-goal-bottom ul input {
-	border: 2px solid #54D1A1;
-	background: #E6F8F1;
+	border: 2px solid #54d1a1;
+	background: #e6f8f1;
 }
 .after-goal-bottom ul input:focus {
-	border-color: #54D1A1;
-	
-	box-shadow: 0 0 0 0.25rem rgb(84 209 161 / 25%)
+	border-color: #54d1a1;
+
+	box-shadow: 0 0 0 0.25rem rgb(84 209 161 / 25%);
 }
- @media (max-width: 1500px) {
+@media (max-width: 1500px) {
 	.cmn-share-btn.btn-track {
 		font-size: 25px;
 		width: 270px;
@@ -5071,7 +5069,7 @@ a {
 	.streaks-wrapper-three {
 		height: 750px;
 	}
- }
+}
 
 @media (max-width: 1199px) {
 	.percentage-right img {
@@ -5081,150 +5079,151 @@ a {
 		font-size: 35px;
 	}
 	.ninja-content {
-    padding: 40px 50px;
-}
-.ninja-wrapper-two .cmn-share-btn.btn-track {
-    width: 200px;
-    height: 65px;
-}
-.ninja-content__subtitle {
-    font-size: 30px;
-    margin-bottom: 80px;
-}
-.ninja-right .title {
-    font-size: 42px;
-}
-.ninja-content__title {
-    font-size: 46px;
-}
-.cmn-top-wrapper {
-	height: 65px;
-}
-.percentage-right {
-	padding-right: 0px;
-}
-.time-table-content {
-    padding: 40px 50px;
-}
-.ninja-text {
-	font-weight: 500;
-}
-.time-table-wrapper {
-	margin-bottom: 50px;
-}
-.ninja-wrapper {
-	margin-bottom: 50px;
-}
-.partners-wrapper {
-	margin-bottom: 50px;
-}
-.time-table-wrapper {
-	height: 700px;
-}
-.cmn-top-wrapper .left .title {
-	font-size: 25px;
-}
-.messages-left, .messages-right {
-	max-width: 600px;
-}
-.messages-left p, .messages-right p {
-	font-size: 18px;
-}
-.messages {
-    padding: 60px 30px 80px;
-}
-.comments-wrapper {
-	height: 620px;
-}
-.statistics-section {
-	padding-top: 50px;
-	padding-bottom: 120px;
-}
-.days-checkbox-wrapper {
-	padding-top: 0px;
-}
-.checkbox-area input {
-    width: 50px;
-    height: 50px;
-}
-.streaks-wrapper-two {
-	margin-bottom: 50px;
-}
-.streaks-wrapper-two .streaks-content {
-	padding-inline: 50px;
-	padding-top: 40px;
-}
-.checkbox-area .title {
-	font-size: 28px;
-}
-.rank-number-somoy {
-	gap: 41px;
-}
-.rank-number-somoy li {
-	margin-bottom: 0px;
-}
-.streaks-wrapper-two {
-    height: 680px;
-}
-.days-checkbox-wrapper li .form-check-input:checked[type=checkbox] {
-	background-size: 40px;
-}
-.comments-box input {
-    height: 65.83px;
-    font-size: 20.305px;
-}
-.comments-box button img {
-	width: 30px;
-}
-.calendar-list .calender .title {
-	font-size: 20px;
-}
-.projections-subtitle {
-	padding-top: 65px;
-}
-.projections-content {
-	padding: 40px 50px 50px;
-}
-.projections-wrapper {
-	margin-bottom: 50px;
-	height: 980px;
-}
-.two-content-wrpper {
-	padding-left: 0px;
-}
-.pre-after-wrapper .two-content-wrpper .time-manage {
-    width: 86%;
-    padding-left: 125px;
-}
-.pre-goal-left ul input {
-    width: 130px;
-    height: 55px;
-}
-.pre-goal-wrapper {
-	padding-right: 0px;
-}
-.streaks-wrapper-three .two-content-wrpper {
-    padding-left: 40px;
-}
-.style-two .goal-select.goal-select2 {
-	font-size: 20px;
-	height: 60px;
-	line-height: 60px;
-}
-.style-two .goal-select .list .option {
-    padding-top: 7.7px;
-    padding-bottom: 7.7px;
-    border: 1px solid #91adfe;
-}
-.pre-goal-wrapper {
-	padding-top: 0px;
-}
+		padding: 40px 50px;
+	}
+	.ninja-wrapper-two .cmn-share-btn.btn-track {
+		width: 200px;
+		height: 65px;
+	}
+	.ninja-content__subtitle {
+		font-size: 30px;
+		margin-bottom: 80px;
+	}
+	.ninja-right .title {
+		font-size: 42px;
+	}
+	.ninja-content__title {
+		font-size: 46px;
+	}
+	.cmn-top-wrapper {
+		height: 65px;
+	}
+	.percentage-right {
+		padding-right: 0px;
+	}
+	.time-table-content {
+		padding: 40px 50px;
+	}
+	.ninja-text {
+		font-weight: 500;
+	}
+	.time-table-wrapper {
+		margin-bottom: 50px;
+	}
+	.ninja-wrapper {
+		margin-bottom: 50px;
+	}
+	.partners-wrapper {
+		margin-bottom: 50px;
+	}
+	.time-table-wrapper {
+		height: 700px;
+	}
+	.cmn-top-wrapper .left .title {
+		font-size: 25px;
+	}
+	.messages-left,
+	.messages-right {
+		max-width: 600px;
+	}
+	.messages-left p,
+	.messages-right p {
+		font-size: 18px;
+	}
+	.messages {
+		padding: 60px 30px 80px;
+	}
+	.comments-wrapper {
+		height: 620px;
+	}
+	.statistics-section {
+		padding-top: 50px;
+		padding-bottom: 120px;
+	}
+	.days-checkbox-wrapper {
+		padding-top: 0px;
+	}
+	.checkbox-area input {
+		width: 50px;
+		height: 50px;
+	}
+	.streaks-wrapper-two {
+		margin-bottom: 50px;
+	}
+	.streaks-wrapper-two .streaks-content {
+		padding-inline: 50px;
+		padding-top: 40px;
+	}
+	.checkbox-area .title {
+		font-size: 28px;
+	}
+	.rank-number-somoy {
+		gap: 41px;
+	}
+	.rank-number-somoy li {
+		margin-bottom: 0px;
+	}
+	.streaks-wrapper-two {
+		height: 680px;
+	}
+	.days-checkbox-wrapper li .form-check-input:checked[type="checkbox"] {
+		background-size: 40px;
+	}
+	.comments-box input {
+		height: 65.83px;
+		font-size: 20.305px;
+	}
+	.comments-box button img {
+		width: 30px;
+	}
+	.calendar-list .calender .title {
+		font-size: 20px;
+	}
+	.projections-subtitle {
+		padding-top: 65px;
+	}
+	.projections-content {
+		padding: 40px 50px 50px;
+	}
+	.projections-wrapper {
+		margin-bottom: 50px;
+		height: 980px;
+	}
+	.two-content-wrpper {
+		padding-left: 0px;
+	}
+	.pre-after-wrapper .two-content-wrpper .time-manage {
+		width: 86%;
+		padding-left: 125px;
+	}
+	.pre-goal-left ul input {
+		width: 130px;
+		height: 55px;
+	}
+	.pre-goal-wrapper {
+		padding-right: 0px;
+	}
+	.streaks-wrapper-three .two-content-wrpper {
+		padding-left: 40px;
+	}
+	.style-two .goal-select.goal-select2 {
+		font-size: 20px;
+		height: 60px;
+		line-height: 60px;
+	}
+	.style-two .goal-select .list .option {
+		padding-top: 7.7px;
+		padding-bottom: 7.7px;
+		border: 1px solid #91adfe;
+	}
+	.pre-goal-wrapper {
+		padding-top: 0px;
+	}
 
-.two-content-wrpper .time-manage {
-    width: 114%;
-	padding-left: 4px;
-}
-
+	.two-content-wrpper .time-manage {
+		width: 114%;
+		padding-left: 4px;
+	}
 }
 
 @media (max-width: 991px) {
@@ -5232,334 +5231,328 @@ a {
 		width: 30px;
 		height: 30px;
 	}
-	.days-checkbox-wrapper li .form-check-input:checked[type=checkbox] {
-	background-size: 25px;
-}
-.cmn-share-btn {
-    width: 140px;
-    height: 50px;
-    font-size: 15px;
-}
-.cmn-share-btn i {
-    padding-right: 10px;
-    margin-top: 2px;
-    font-size: 25px;
-}
-.ninja-content__title, .ninja-right .title {
-	font-size: 38px;
-}
-.ninja-content__subtitle {
-    font-size: 28px;
-    margin-bottom: 50px;
-}
-.ninja-content__title {
-	margin-bottom: 45px;
-}
-.ninja-text {
-	font-size: 22px;
-}
-.ninja-wrapper {
-	height: 500px;
-}
-.percentage-right img {
-	width: 300px;
-}
+	.days-checkbox-wrapper li .form-check-input:checked[type="checkbox"] {
+		background-size: 25px;
+	}
+	.cmn-share-btn {
+		width: 140px;
+		height: 50px;
+		font-size: 15px;
+	}
+	.cmn-share-btn i {
+		padding-right: 10px;
+		margin-top: 2px;
+		font-size: 25px;
+	}
+	.ninja-content__title,
+	.ninja-right .title {
+		font-size: 38px;
+	}
+	.ninja-content__subtitle {
+		font-size: 28px;
+		margin-bottom: 50px;
+	}
+	.ninja-content__title {
+		margin-bottom: 45px;
+	}
+	.ninja-text {
+		font-size: 22px;
+	}
+	.ninja-wrapper {
+		height: 500px;
+	}
+	.percentage-right img {
+		width: 300px;
+	}
 
-.percentage-right .title {
-	font-size: 25px;
-}
-.cmn-share-btn.btn-track {
-    font-size: 22px;
-    width: 270px;
-    height: 60px;
-}
-.ninja-wrapper-two .cmn-share-btn.btn-track {
-    width: 185px;
-    height: 60px;
-}
-.time-title {
-	font-size: 30px;
-}
-.time-number-set  {
-	font-size: 25px;
-}
-.input-left__title {
-	font-size: 28px;
-}
-.cmn-top-wrapper .left .title {
-	font-size: 20px;
-}
-.cmn-top-wrapper {
-	padding-inline: 30px;
-}
-.streaks-wrapper-three .two-content-wrpper {
-	padding-left: 0px;
-}
-.two-content-wrpper .time-manage {
-    width: 104%;
-    padding-left: 4px;
-}
-.pre-after-content {
-	padding-top: 0;
-	padding-right: 0;
-}
-.style-two .goal-select.goal-select2 {
-	margin-left: 40px;
-}
-.style-two .input-left__title {
-	margin-left: 40px;
-}
-.pagination-wrapper {
-	margin-left: 40px;
-}
-.pre-after-wrapper .two-content-wrpper .time-manage {
-    width: 76%;
-    padding-left: 45px;
-}
-.pagination-wrapper-style-two {
-    margin-top: 45px;
-}
-.rank-number-somoy {
-    gap: 25px;
-}
-.streaks-wrapper-two .streaks-content {
-	padding-top: 0px;
-}
-.streaks-wrapper-two {
-    height: 600px;
-}
-.checkbox-area .title {
-    font-size: 25px;
-}
-.style-two .goal-select.goal-select2 {
-    font-size: 20px;
-    height: 55px;
-    line-height: 55px;
-	/* min-width: 200px; */
-}
-.streaks-wrapper-three .style-two .goal-select.goal-select2 {
-	margin-left: 0px;
-}
-.streaks-wrapper-three .style-two .input-left__title {
-	margin-left: 0px;
-	margin-top: 25px;
-}
-.after-goal-bottom {
-    margin-top: 35px;
-}
-.streaks-wrapper-two {
-    height: 650px;
-}
-.streaks-wrapper-three .pagination-wrapper {
-    margin-left: 0px;
-}
-.projections-subtitle {
-	font-size: 23px;
-}
-.projections-subtitle {
-    padding-top: 50px;
-}
-.projections-title {
-    font-size: 22px;
-    padding-top: 40px;
-    padding-bottom: 30px;
-}
-.pre-after-wrapper {
-	margin-bottom: 50px;
-	
-}
-.projections-wrapper {
-	height: 900px;
-
-}
-.h-md-600 {
-	height: 600px;
-}
-.percentage-right {
-	margin-top: 30px;
-}
-.input-left__title {
-	margin-top: 10px;
-}
-
-
-
-
-
-
-
-
-
+	.percentage-right .title {
+		font-size: 25px;
+	}
+	.cmn-share-btn.btn-track {
+		font-size: 22px;
+		width: 270px;
+		height: 60px;
+	}
+	.ninja-wrapper-two .cmn-share-btn.btn-track {
+		width: 185px;
+		height: 60px;
+	}
+	.time-title {
+		font-size: 30px;
+	}
+	.time-number-set {
+		font-size: 25px;
+	}
+	.input-left__title {
+		font-size: 28px;
+	}
+	.cmn-top-wrapper .left .title {
+		font-size: 20px;
+	}
+	.cmn-top-wrapper {
+		padding-inline: 30px;
+	}
+	.streaks-wrapper-three .two-content-wrpper {
+		padding-left: 0px;
+	}
+	.two-content-wrpper .time-manage {
+		width: 104%;
+		padding-left: 4px;
+	}
+	.pre-after-content {
+		padding-top: 0;
+		padding-right: 0;
+	}
+	.style-two .goal-select.goal-select2 {
+		margin-left: 40px;
+	}
+	.style-two .input-left__title {
+		margin-left: 40px;
+	}
+	.pagination-wrapper {
+		margin-left: 40px;
+	}
+	.pre-after-wrapper .two-content-wrpper .time-manage {
+		width: 76%;
+		padding-left: 45px;
+	}
+	.pagination-wrapper-style-two {
+		margin-top: 45px;
+	}
+	.rank-number-somoy {
+		gap: 25px;
+	}
+	.streaks-wrapper-two .streaks-content {
+		padding-top: 0px;
+	}
+	.streaks-wrapper-two {
+		height: 600px;
+	}
+	.checkbox-area .title {
+		font-size: 25px;
+	}
+	.style-two .goal-select.goal-select2 {
+		font-size: 20px;
+		height: 55px;
+		line-height: 55px;
+		/* min-width: 200px; */
+	}
+	.streaks-wrapper-three .style-two .goal-select.goal-select2 {
+		margin-left: 0px;
+	}
+	.streaks-wrapper-three .style-two .input-left__title {
+		margin-left: 0px;
+		margin-top: 25px;
+	}
+	.after-goal-bottom {
+		margin-top: 35px;
+	}
+	.streaks-wrapper-two {
+		height: 650px;
+	}
+	.streaks-wrapper-three .pagination-wrapper {
+		margin-left: 0px;
+	}
+	.projections-subtitle {
+		font-size: 23px;
+	}
+	.projections-subtitle {
+		padding-top: 50px;
+	}
+	.projections-title {
+		font-size: 22px;
+		padding-top: 40px;
+		padding-bottom: 30px;
+	}
+	.pre-after-wrapper {
+		margin-bottom: 50px;
+	}
+	.projections-wrapper {
+		height: 900px;
+	}
+	.h-md-600 {
+		height: 600px;
+	}
+	.percentage-right {
+		margin-top: 30px;
+	}
+	.input-left__title {
+		margin-top: 10px;
+	}
 }
 
 @media (max-width: 767px) {
 	.partners-wrapper {
-    gap: 53px;
-}
-.cmn-top-wrapper {
-	height: 55px;
-	padding-inline: 15px;
-}
-.cmn-top-wrapper .right {
-    font-size: 20.1313px;
-}
-.ninja-content__title {
-	margin-bottom: 30px;
-	font-size: 35px;
-}
-.ninja-content__subtitle {
-	font-size: 24px;
-}
-.ninja-content__title, .ninja-right .title {
-	font-size: 35px;
-}
-.ninja-content {
-    padding: 20px 20px;
-}
-.ninja-wrapper {
-    height: 465px;
-}
-.partners-wrapper, .ninja-wrapper {
-    margin-bottom: 35px;
-}
-.ninja-right .title {
-	text-align: end;
-	padding-right: 30px;
-}
-.time-table-content {
-    padding: 20px 20px;
-}
-.time-table-wrapper .day-list.day-list-two li a {
-	width: 100px;
-}
-.time-table-wrapper .day-list.day-list-two {
-    width: 300px;
-}
-.time-title {
-    font-size: 25px;
-}
-.input-left .select-arrow-3 {
-	top: 20px;
-}
-.cmn-top-wrapper .left .title {
-    font-size: 16px;
-}
-.time-table-wrapper {
-    margin-bottom: 35px;
-}
-.messages-left p, .messages-right p {
-	font-size: 16px;
-}
-.messages-left {
-    margin-bottom: 35px;
-}
-.messages-left, .messages-right {
-	max-width: 100%;
-}
-.messages {
-    padding: 40px 20px 50px;
-}
-.comments-wrapper {
-    height: 510px;
-}
-.content-wrapper {
-    padding: 20px 20px;
-	width: auto;
-}
-.style-two .title {
-    margin-bottom: 20px;
-}
-.content-wrapper ul li {
-    width: 115px;
-    height: 70px;
-}
-.ninja-shape {
-	display: none;
-}
-.streaks-wrapper-two .streaks-content {
-	padding-inline: 20px;
-}
-.pre-goal-left ul {
-	gap: 10px;
-}
-.pre-goal-left ul input {
-    width: 111px;
-    height: 50px;
-}
-.style-two .input-left__title {
-	font-size: 22px;
-}
-.pagination-wrapper {
-    margin-left: 20px;
-}
-.style-two .goal-select.goal-select2 {
-	margin-left: 20px;
-}
-.pre-after-content .style-two .select-arrow-3 {
-	top: 20px;
-}
-.style-two .input-left__title {
-    margin-left: 20px;
-}
-.pagination-wrapper li a {
-    padding: 10px 19px;
-}
-.pre-after-wrapper .two-content-wrpper .time-manage {
-    width: 95%;
-    padding-left: 27px;
-}
-.two-content-wrpper .time-manage {
-    width: 100%;
-    padding-left: 4px;
-}
-.style-two .select-arrow-3 {
-	top: 15px;
-}
-.days-checkbox-wrapper li input {
-    margin-right: 10px;
-}
-.input-left .goal-select2 {
-	height: 55px;
-	line-height: 55px;
-}
-.rank-number-somoy {
-	padding-left: 0px;
-	gap: 20px;
-}
-.checkbox-area .title {
-	font-size: 24px;
-	margin-bottom: 20px;
-}
-.days-checkbox-wrapper li {
-	margin-bottom: 0px;
-}
-.days-checkbox-wrapper li span {
-    font-size: 18px;
-    transform: translateY(116%);
-}
-.days-checkbox-wrapper li {
-    gap: 35px;
-}
-.streaks-wrapper-two {
-	margin-bottom: 35px;
-}
-.calendar-list li {
-    gap: 25px;
-}
-.projections-content {
-    padding: 25px 20px 30px;
-}
-.projections-wrapper {
-    height: 850px;
-	margin-bottom: 35px;
-} 
-.streaks-wrapper-two {
-    height: 600px;
-}
-.comments-box input {
-    height: 60.83px;
-    font-size: 18.305px;
-}
+		gap: 53px;
+	}
+	.cmn-top-wrapper {
+		height: 55px;
+		padding-inline: 15px;
+	}
+	.cmn-top-wrapper .right {
+		font-size: 20.1313px;
+	}
+	.ninja-content__title {
+		margin-bottom: 30px;
+		font-size: 35px;
+	}
+	.ninja-content__subtitle {
+		font-size: 24px;
+	}
+	.ninja-content__title,
+	.ninja-right .title {
+		font-size: 35px;
+	}
+	.ninja-content {
+		padding: 20px 20px;
+	}
+	.ninja-wrapper {
+		height: 465px;
+	}
+	.partners-wrapper,
+	.ninja-wrapper {
+		margin-bottom: 35px;
+	}
+	.ninja-right .title {
+		text-align: end;
+		padding-right: 30px;
+	}
+	.time-table-content {
+		padding: 20px 20px;
+	}
+	.time-table-wrapper .day-list.day-list-two li a {
+		width: 100px;
+	}
+	.time-table-wrapper .day-list.day-list-two {
+		width: 300px;
+	}
+	.time-title {
+		font-size: 25px;
+	}
+	.input-left .select-arrow-3 {
+		top: 20px;
+	}
+	.cmn-top-wrapper .left .title {
+		font-size: 16px;
+	}
+	.time-table-wrapper {
+		margin-bottom: 35px;
+	}
+	.messages-left p,
+	.messages-right p {
+		font-size: 16px;
+	}
+	.messages-left {
+		margin-bottom: 35px;
+	}
+	.messages-left,
+	.messages-right {
+		max-width: 100%;
+	}
+	.messages {
+		padding: 40px 20px 50px;
+	}
+	.comments-wrapper {
+		height: 510px;
+	}
+	.content-wrapper {
+		padding: 20px 20px;
+		width: auto;
+	}
+	.style-two .title {
+		margin-bottom: 20px;
+	}
+	.content-wrapper ul li {
+		width: 115px;
+		height: 70px;
+	}
+	.ninja-shape {
+		display: none;
+	}
+	.streaks-wrapper-two .streaks-content {
+		padding-inline: 20px;
+	}
+	.pre-goal-left ul {
+		gap: 10px;
+	}
+	.pre-goal-left ul input {
+		width: 111px;
+		height: 50px;
+	}
+	.style-two .input-left__title {
+		font-size: 22px;
+	}
+	.pagination-wrapper {
+		margin-left: 20px;
+	}
+	.style-two .goal-select.goal-select2 {
+		margin-left: 20px;
+	}
+	.pre-after-content .style-two .select-arrow-3 {
+		top: 20px;
+	}
+	.style-two .input-left__title {
+		margin-left: 20px;
+	}
+	.pagination-wrapper li a {
+		padding: 10px 19px;
+	}
+	.pre-after-wrapper .two-content-wrpper .time-manage {
+		width: 95%;
+		padding-left: 27px;
+	}
+	.two-content-wrpper .time-manage {
+		width: 100%;
+		padding-left: 4px;
+	}
+	.style-two .select-arrow-3 {
+		top: 15px;
+	}
+	.days-checkbox-wrapper li input {
+		margin-right: 10px;
+	}
+	.input-left .goal-select2 {
+		height: 55px;
+		line-height: 55px;
+	}
+	.rank-number-somoy {
+		padding-left: 0px;
+		gap: 20px;
+	}
+	.checkbox-area .title {
+		font-size: 24px;
+		margin-bottom: 20px;
+	}
+	.days-checkbox-wrapper li {
+		margin-bottom: 0px;
+	}
+	.days-checkbox-wrapper li span {
+		font-size: 18px;
+		transform: translateY(116%);
+	}
+	.days-checkbox-wrapper li {
+		gap: 35px;
+	}
+	.streaks-wrapper-two {
+		margin-bottom: 35px;
+	}
+	.calendar-list li {
+		gap: 25px;
+	}
+	.projections-content {
+		padding: 25px 20px 30px;
+	}
+	.projections-wrapper {
+		height: 850px;
+		margin-bottom: 35px;
+	}
+	.streaks-wrapper-two {
+		height: 600px;
+	}
+	.comments-box input {
+		height: 60.83px;
+		font-size: 18.305px;
+	}
 }
 
 @media (max-width: 575px) {
@@ -5571,160 +5564,162 @@ a {
 		gap: 35px;
 	}
 	.cmn-share-btn.btn-track {
-    font-size: 20px;
-    width: 220px;
-    height: 55px;
-}
-.ninja-right img {
-	display: none;
-}
-.ninja-wrapper-two .cmn-share-btn.btn-track {
-    width: 170px;
-    height: 55px;
-}
-.ninja-text {
-	font-size: 18px;
-	margin-top: 10px;
-}
-.ninja-right .title {
-	margin-top: 30px;
-}
-.statistics-section .goal-select2 {
-	min-width: 310px;
-}
-.percentage-right img {
-    width: 240px;
-	text-align: center;
-	margin: 0 auto;
-}
-.percentage-right {
-    gap: 22px;
-    padding-right: 0px;
-}
-.input-left__title {
-	margin-top: 20px;
-}
-.cmn-top-wrapper {
-    height: 50px;
-    padding-inline: 10px;
-}
-.cmn-top-wrapper .left .title {
-    font-size: 15px;
-}
-.content-wrapper {
-    padding: 10px 20px;
-}
-.pre-after-content .style-two .select-arrow-3 {
-    top: 15px;
-}
-.pre-after-wrapper {
-    height: 735px;
-}
-.pagination-wrapper li a {
-    padding: 10px 10.5px;
-}
-.pre-after-wrapper .two-content-wrpper .time-manage {
-    width: 65%;
-    padding-left: 27px;
-}
-.time-manage li {
-	font-size: 16px;
-}
-.rank-number-somoy li {
-	font-size: 13px;
-}
-.rank-number-somoy li p {
-	font-size: 11px;
-}
-.rank-number-somoy {
-    padding-left: 0px;
-    gap: 12px;
-}
-.days-checkbox-wrapper li input {
-	margin-bottom: 10px;
-}
-.days-checkbox-wrapper li {
-    gap: 33px;
-}
-.streaks-wrapper-two {
-    height: 715px;
-}
-.cmn-top-wrapper .left {
-	width: calc(100% - 30px);
-}
-.two-content-wrpper .time-manage {
-    width: 64%;
-    padding-left: 4px;
-}
-.day-list.day-list-two {
-	width: 310px;
-}
-.day-list.day-list-two li a {
-    width: 103px;
-}
-.calendar-list .calender {
-    height: 50.87px;
-    padding-inline: 15px;
-	width: 210px;
-}
-.calendar-list .calender .title {
-    font-size: 18px;
-}
-.goal-text {
-	margin: 0px;
-}
-.projections-subtitle {
-    font-size: 19px;
-}
-.projections-title {
-    font-size: 19px;
-    padding-top: 35px;
-    padding-bottom: 12px;
-}
-.projections-subtitle {
-    padding-top: 35px;
-	padding-bottom: 15px;
-}
-.calendar-list li {
-    gap: 15px;
-}
-.calendar-list .calender .title {
-    font-size: 16px;
-}
-.calendar-list .calender i {
-	font-size: 20px;
-}
-.projections-wrapper {
-    height: 740px;
-}
-.goal-text {
-	font-size: 20px;
-}
-.comments-box {
-	padding-inline: 20px;
-}
-.comments-box button {
-	right: 40px;
-}
-.messages-left p, .messages-right p {
-    font-size: 15px;
-}
-.messages-left, .messages-right {
-	border-radius: 15px;
-}
-.comments-wrapper {
-    height: 600px;
-}
-.comments-box input {
-    height: 55.83px;
-    font-size: 16.305px;
-}
-.comments-box button img {
-    width: 25px;
-}
-.comments-box button {
-	top: 16px;
-}
+		font-size: 20px;
+		width: 220px;
+		height: 55px;
+	}
+	.ninja-right img {
+		display: none;
+	}
+	.ninja-wrapper-two .cmn-share-btn.btn-track {
+		width: 170px;
+		height: 55px;
+	}
+	.ninja-text {
+		font-size: 18px;
+		margin-top: 10px;
+	}
+	.ninja-right .title {
+		margin-top: 30px;
+	}
+	.statistics-section .goal-select2 {
+		min-width: 310px;
+	}
+	.percentage-right img {
+		width: 240px;
+		text-align: center;
+		margin: 0 auto;
+	}
+	.percentage-right {
+		gap: 22px;
+		padding-right: 0px;
+	}
+	.input-left__title {
+		margin-top: 20px;
+	}
+	.cmn-top-wrapper {
+		height: 50px;
+		padding-inline: 10px;
+	}
+	.cmn-top-wrapper .left .title {
+		font-size: 15px;
+	}
+	.content-wrapper {
+		padding: 10px 20px;
+	}
+	.pre-after-content .style-two .select-arrow-3 {
+		top: 15px;
+	}
+	.pre-after-wrapper {
+		height: 735px;
+	}
+	.pagination-wrapper li a {
+		padding: 10px 10.5px;
+	}
+	.pre-after-wrapper .two-content-wrpper .time-manage {
+		width: 65%;
+		padding-left: 27px;
+	}
+	.time-manage li {
+		font-size: 16px;
+	}
+	.rank-number-somoy li {
+		font-size: 13px;
+	}
+	.rank-number-somoy li p {
+		font-size: 11px;
+	}
+	.rank-number-somoy {
+		padding-left: 0px;
+		gap: 12px;
+	}
+	.days-checkbox-wrapper li input {
+		margin-bottom: 10px;
+	}
+	.days-checkbox-wrapper li {
+		gap: 33px;
+	}
+	.streaks-wrapper-two {
+		height: 715px;
+	}
+	.cmn-top-wrapper .left {
+		width: calc(100% - 30px);
+	}
+	.two-content-wrpper .time-manage {
+		width: 64%;
+		padding-left: 4px;
+	}
+	.day-list.day-list-two {
+		width: 310px;
+	}
+	.day-list.day-list-two li a {
+		width: 103px;
+	}
+	.calendar-list .calender {
+		height: 50.87px;
+		padding-inline: 15px;
+		width: 210px;
+	}
+	.calendar-list .calender .title {
+		font-size: 18px;
+	}
+	.goal-text {
+		margin: 0px;
+	}
+	.projections-subtitle {
+		font-size: 19px;
+	}
+	.projections-title {
+		font-size: 19px;
+		padding-top: 35px;
+		padding-bottom: 12px;
+	}
+	.projections-subtitle {
+		padding-top: 35px;
+		padding-bottom: 15px;
+	}
+	.calendar-list li {
+		gap: 15px;
+	}
+	.calendar-list .calender .title {
+		font-size: 16px;
+	}
+	.calendar-list .calender i {
+		font-size: 20px;
+	}
+	.projections-wrapper {
+		height: 740px;
+	}
+	.goal-text {
+		font-size: 20px;
+	}
+	.comments-box {
+		padding-inline: 20px;
+	}
+	.comments-box button {
+		right: 40px;
+	}
+	.messages-left p,
+	.messages-right p {
+		font-size: 15px;
+	}
+	.messages-left,
+	.messages-right {
+		border-radius: 15px;
+	}
+	.comments-wrapper {
+		height: 600px;
+	}
+	.comments-box input {
+		height: 55.83px;
+		font-size: 16.305px;
+	}
+	.comments-box button img {
+		width: 25px;
+	}
+	.comments-box button {
+		top: 16px;
+	}
 }
 @media (min-width: 390px) {
 	.rank-number-somoy {
