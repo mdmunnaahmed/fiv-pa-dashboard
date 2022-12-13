@@ -134,7 +134,7 @@
                     </ul>
                 </div>
                 <div class="partners-button">
-                    <a href="#0" class="cmn-share-btn d-flex align-items-center"><i class="far fa-share-alt"></i> Share</a>
+                    <a data-bs-toggle="modal" data-bs-target="#share" href="#0" class="cmn-share-btn d-flex align-items-center"><i class="far fa-share-alt"></i> Share</a>
                     <a href="#0" class="cmn-share-btn cmn-share-btn2 d-flex align-items-center mt-13px-mobile-change">Unshare</a>
                 </div>
             </div>
@@ -597,6 +597,92 @@
         </div>
     </footer>
     <!--------- Footer area end --------->
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="share" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content  border-0">
+                <div class="modal-body">
+                    <div class="choose-modal w-100">
+                        <span data-bs-dismiss="modal" class="modal-close fs--25px position-absolute  top-0"><i class="fas fa-times"></i></span>
+                        <div class="w-100 px-md-5 mx-sm-4">
+                            <p class="fw-bold text--blue" style="font-size: 30px;">Invite </p>
+                            <div class="input-group w-100 gap-3">
+                                <input type="text" class="form--control w-auto mw-100 flex-grow-1" style="border-radius: 13px;" placeholder="Emails, comma separated">
+                                <button class="blue-btn  fs--18px border-0" style="border-radius: 13px;">Send Invite</button>
+                            </div>
+                            <ul class="info-list-modal ps-0 mt-4" style="list-style: none;">
+                                <li class="d-flex flex-wrap justify-content-between py-1">
+                                    <select name="" id="" class="border-0 text--blue outline-0 shadow-none">
+                                        <option value="">Anyone with the link</option>
+                                        <option value="">Anyone with the link</option>
+                                        <option value="">Anyone with the link</option>
+                                    </select>
+                                    <span class="text--blue fw-semiBold">Can view</span>
+                                </li>
+                                <li class="d-flex flex-wrap justify-content-between align-items-center py-1">
+                                    <span class="text--blue d-flex align-items-center gap-2">
+                                        <img src="./assets/img/user.png" alt="user">
+                                        <span>Steve (You)</span>
+                                    </span>
+                                    <span class="text--blue fw-semiBold">Can view</span>
+                                </li>
+                                <li class="d-flex flex-wrap gap-4 py-1 pt-3">
+                                    <span class="text--blue"><i class="fas fa-link me-2"></i> Copy Link</span>
+                                    <span class="text--blue"><i class="fas fa-code me-2"></i> Get embedded code</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="UnShare" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content  border-0">
+                <div class="modal-body">
+                    <div class="choose-modal w-100">
+                        <span data-bs-dismiss="modal" class="modal-close fs--25px position-absolute  top-0"><i class="fas fa-times"></i></span>
+                        <div class="w-100 px-md-5 mx-sm-4">
+                            <p class="fw-bold text--blue" style="font-size: 30px;">Unshare </p>
+                            <div class="input-group w-100 gap-3">
+                                <input type="text" class="form--control w-auto mw-100 flex-grow-1" style="border-radius: 13px;" placeholder="Emails, comma separated">
+                                <button class="blue-btn  fs--18px border-0" style="border-radius: 13px;">Unshare</button>
+                            </div>
+                            <ul class="info-list-modal ps-0 mt-4" style="list-style: none;">
+                                <li class="d-flex flex-wrap justify-content-between align-items-center py-3">
+                                    <span class="text--blue d-flex align-items-center gap-2">
+                                        <img src="./assets/img/user.png" alt="user">
+                                        <span>Steve (You)</span>
+                                    </span>
+                                    <span class="text--blue fw-semiBold">Owner</span>
+                                </li>
+                                <li class="d-flex flex-wrap justify-content-between align-items-center py-3">
+                                    <span class="text--blue d-flex align-items-center gap-2">
+                                        <img src="./assets/img/user.png" alt="user">
+                                        <span>Tony</span>
+                                    </span>
+                                    <span class="text--blue fw-semiBold">Viewer</span>
+                                </li>
+                                <li class="d-flex flex-wrap justify-content-between align-items-center py-3">
+                                    <span class="text--blue d-flex align-items-center gap-2">
+                                        <img src="./assets/img/user.png" alt="user">
+                                        <span>Chris</span>
+                                    </span>
+                                    <span class="text--blue fw-semiBold">Viewer</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <script src="assets/js/jquery.min.js"></script>
